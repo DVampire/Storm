@@ -1,0 +1,2 @@
+from .decoder import VAETransformerDecoder
+from .factor_vae_decoder import FactorVAEDecoder

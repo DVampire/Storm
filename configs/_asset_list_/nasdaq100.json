@@ -1,0 +1,778 @@
+[
+    {
+        "symbol": "AAL",
+        "name": "American Airlines Group Inc.",
+        "price": 15.66,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 179.66,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ADBE",
+        "name": "Adobe Inc.",
+        "price": 570.93,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ADI",
+        "name": "Analog Devices, Inc.",
+        "price": 196.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ADP",
+        "name": "Automatic Data Processing, Inc.",
+        "price": 249.69,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ADSK",
+        "name": "Autodesk, Inc.",
+        "price": 264.74,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AKAM",
+        "name": "Akamai Technologies, Inc.",
+        "price": 110.24,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ALXN",
+        "name": "Alexion Pharmaceuticals, Inc.",
+        "price": 182.5,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMAT",
+        "name": "Applied Materials, Inc.",
+        "price": 210.25,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMGN",
+        "name": "Amgen Inc.",
+        "price": 280.33,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": 178.22,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ATVI",
+        "name": "Activision Blizzard, Inc.",
+        "price": 94.42,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AVGO",
+        "name": "Broadcom Inc.",
+        "price": 1399.17,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BATRA",
+        "name": "The Liberty Braves Group",
+        "price": 41.81,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BATRK",
+        "name": "The Liberty Braves Group",
+        "price": 38.89,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BBBY",
+        "name": "Bed Bath & Beyond Inc.",
+        "price": 0.0751,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BIDU",
+        "name": "Baidu, Inc.",
+        "price": 104.02,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BIIB",
+        "name": "Biogen Inc.",
+        "price": 220.95,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BMRN",
+        "name": "BioMarin Pharmaceutical Inc.",
+        "price": 87.14,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CA",
+        "name": "DBX Etf Trust - Xtrackers California Municipal Bond Etf",
+        "price": 25.28,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "CERN",
+        "name": "Cerner Corporation",
+        "price": 94.92,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CHKP",
+        "name": "Check Point Software Technologies Ltd.",
+        "price": 158.05,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "price": 293.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CMCSA",
+        "name": "Comcast Corporation",
+        "price": 42.8,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "COST",
+        "name": "Costco Wholesale Corporation",
+        "price": 749.44,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CSCO",
+        "name": "Cisco Systems, Inc.",
+        "price": 48.4,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CSX",
+        "name": "CSX Corporation",
+        "price": 38.23,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CTSH",
+        "name": "Cognizant Technology Solutions Corporation",
+        "price": 78.61,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CTXS",
+        "name": "Citrix Systems, Inc.",
+        "price": 103.9,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "DISCA",
+        "name": "Warner Bros. Discovery, Inc.",
+        "price": 24.43,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "DISCK",
+        "name": "Warner Bros. Discovery, Inc.",
+        "price": 24.42,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "DISH",
+        "name": "DISH Network Corporation",
+        "price": 5.77,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "DLTR",
+        "name": "Dollar Tree, Inc.",
+        "price": 148.44,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "EA",
+        "name": "Electronic Arts Inc.",
+        "price": 140.79,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "EBAY",
+        "name": "eBay Inc.",
+        "price": 48.05,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ENDP",
+        "name": "Endo International plc",
+        "price": 0.3744,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ESRX",
+        "name": "Express Scripts Holding Company",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "EXPE",
+        "name": "Expedia Group, Inc.",
+        "price": 136.84,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FAST",
+        "name": "Fastenal Company",
+        "price": 72.84,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FISV",
+        "name": "Fiserv, Inc.",
+        "price": 114.23,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FOX",
+        "name": "Fox Corporation",
+        "price": 26.99,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FOXA",
+        "name": "Fox Corporation",
+        "price": 29.42,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "GILD",
+        "name": "Gilead Sciences, Inc.",
+        "price": 72.31,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "GOOG",
+        "name": "Alphabet Inc.",
+        "price": 138.08,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": 137.14,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "HSIC",
+        "name": "Henry Schein, Inc.",
+        "price": 76.88,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ILMN",
+        "name": "Illumina, Inc.",
+        "price": 140.5,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "INCY",
+        "name": "Incyte Corporation",
+        "price": 59.05,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "price": 43.82,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "INTU",
+        "name": "Intuit Inc.",
+        "price": 666.52,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ISRG",
+        "name": "Intuitive Surgical, Inc.",
+        "price": 397.9,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "JD",
+        "name": "JD.com, Inc.",
+        "price": 23,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "KHC",
+        "name": "The Kraft Heinz Company",
+        "price": 35.13,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LBTYA",
+        "name": "Liberty Global plc",
+        "price": 17.39,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LBTYK",
+        "name": "Liberty Global plc",
+        "price": 18.33,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LLTC",
+        "name": "4104459",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "LRCX",
+        "name": "Lam Research Corporation",
+        "price": 981.53,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MAR",
+        "name": "Marriott International, Inc.",
+        "price": 250,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MAT",
+        "name": "Mattel, Inc.",
+        "price": 19.52,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MDLZ",
+        "name": "Mondelez International, Inc.",
+        "price": 72.37,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MNST",
+        "name": "Monster Beverage Corporation",
+        "price": 58.79,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": 415.5,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MU",
+        "name": "Micron Technology, Inc.",
+        "price": 95.15,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MXIM",
+        "name": "Maxim Integrated Products, Inc.",
+        "price": 103.14,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NCLH",
+        "name": "Norwegian Cruise Line Holdings Ltd.",
+        "price": 19.29,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NFLX",
+        "name": "Netflix, Inc.",
+        "price": 619.34,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NTAP",
+        "name": "NetApp, Inc.",
+        "price": 105.31,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NTES",
+        "name": "NetEase, Inc.",
+        "price": 110.49,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": 822.79,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NXPI",
+        "name": "NXP Semiconductors N.V.",
+        "price": 257.51,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ORLY",
+        "name": "O'Reilly Automotive, Inc.",
+        "price": 1085.45,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PAYX",
+        "name": "Paychex, Inc.",
+        "price": 122.23,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PCAR",
+        "name": "PACCAR Inc",
+        "price": 113.19,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PYPL",
+        "name": "PayPal Holdings, Inc.",
+        "price": 60.54,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "QCOM",
+        "name": "QUALCOMM Incorporated",
+        "price": 163.09,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "REGN",
+        "name": "Regeneron Pharmaceuticals, Inc.",
+        "price": 982.82,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ROST",
+        "name": "Ross Stores, Inc.",
+        "price": 149.63,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SBAC",
+        "name": "SBA Communications Corporation",
+        "price": 208.29,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SBUX",
+        "name": "Starbucks Corporation",
+        "price": 93.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SIRI",
+        "name": "Sirius XM Holdings Inc.",
+        "price": 4.27,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SRCL",
+        "name": "Stericycle, Inc.",
+        "price": 53.77,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "STX",
+        "name": "Seagate Technology Holdings plc",
+        "price": 97.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "price": 106.44,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TMUS",
+        "name": "T-Mobile US, Inc.",
+        "price": 163.37,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TRIP",
+        "name": "Tripadvisor, Inc.",
+        "price": 27.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TSCO",
+        "name": "Tractor Supply Company",
+        "price": 252.42,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": 202.64,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TXN",
+        "name": "Texas Instruments Incorporated",
+        "price": 171.05,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ULTA",
+        "name": "Ulta Beauty, Inc.",
+        "price": 549.98,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "VOD",
+        "name": "Vodafone Group Public Limited Company",
+        "price": 9.08,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "VRSK",
+        "name": "Verisk Analytics, Inc.",
+        "price": 241.65,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "VRTX",
+        "name": "Vertex Pharmaceuticals Incorporated",
+        "price": 432.76,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "WBA",
+        "name": "Walgreens Boots Alliance, Inc.",
+        "price": 21.49,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "WDC",
+        "name": "Western Digital Corporation",
+        "price": 64.3,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "WFM",
+        "name": "Whole Foods Market, Inc.",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "XLNX",
+        "name": "Xilinx, Inc.",
+        "price": 194.92,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "YHOO",
+        "name": "20318540",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    }
+]

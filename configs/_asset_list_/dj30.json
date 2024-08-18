@@ -1,0 +1,234 @@
+[
+    {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 179.66,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMGN",
+        "name": "Amgen Inc.",
+        "price": 280.33,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AXP",
+        "name": "American Express Company",
+        "price": 219.66,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BA",
+        "name": "The Boeing Company",
+        "price": 200,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CAT",
+        "name": "Caterpillar Inc.",
+        "price": 336.7,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CRM",
+        "name": "Salesforce, Inc.",
+        "price": 316.88,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CSCO",
+        "name": "Cisco Systems, Inc.",
+        "price": 48.4,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CVX",
+        "name": "Chevron Corporation",
+        "price": 152.81,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DIS",
+        "name": "The Walt Disney Company",
+        "price": 111.95,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GS",
+        "name": "The Goldman Sachs Group, Inc.",
+        "price": 388.1,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HD",
+        "name": "The Home Depot, Inc.",
+        "price": 384.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HON",
+        "name": "Honeywell International Inc.",
+        "price": 198.67,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "IBM",
+        "name": "International Business Machines Corporation",
+        "price": 188.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "price": 43.82,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "JNJ",
+        "name": "Johnson & Johnson",
+        "price": 162.12,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "JPM",
+        "name": "JPMorgan Chase & Co.",
+        "price": 185.29,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KO",
+        "name": "The Coca-Cola Company",
+        "price": 59.53,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MCD",
+        "name": "McDonald's Corporation",
+        "price": 290.73,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MMM",
+        "name": "3M Company",
+        "price": 91.86,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MRK",
+        "name": "Merck & Co., Inc.",
+        "price": 126.96,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": 415.5,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NKE",
+        "name": "NIKE, Inc.",
+        "price": 101.88,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PG",
+        "name": "The Procter & Gamble Company",
+        "price": 158.85,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TRV",
+        "name": "The Travelers Companies, Inc.",
+        "price": 218.82,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "UNH",
+        "name": "UnitedHealth Group Incorporated",
+        "price": 489.53,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "V",
+        "name": "Visa Inc.",
+        "price": 283.16,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "VZ",
+        "name": "Verizon Communications Inc.",
+        "price": 40.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WBA",
+        "name": "Walgreens Boots Alliance, Inc.",
+        "price": 21.49,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "WMT",
+        "name": "Walmart Inc.",
+        "price": 58.76,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    }
+]

@@ -1,0 +1,6386 @@
+[
+    {
+        "symbol": "A",
+        "name": "Agilent Technologies, Inc.",
+        "price": 139.06,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AA",
+        "name": "Alcoa Corporation",
+        "price": 27.68,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AAP",
+        "name": "Advance Auto Parts, Inc.",
+        "price": 69.26,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 179.66,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ABC",
+        "name": "AmerisourceBergen Corporation",
+        "price": 179.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ABT",
+        "name": "Abbott Laboratories",
+        "price": 118.62,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ACC",
+        "name": "American Campus Communities, Inc.",
+        "price": 65.42,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "ACGL",
+        "name": "Arch Capital Group Ltd.",
+        "price": 87.17,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ACM",
+        "name": "AECOM",
+        "price": 89.38,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ACN",
+        "name": "Accenture plc",
+        "price": 380.99,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ADBE",
+        "name": "Adobe Inc.",
+        "price": 570.93,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ADI",
+        "name": "Analog Devices, Inc.",
+        "price": 196.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ADM",
+        "name": "Archer-Daniels-Midland Company",
+        "price": 54.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ADP",
+        "name": "Automatic Data Processing, Inc.",
+        "price": 249.69,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ADS",
+        "name": "Bread Financial Holdings, Inc.",
+        "price": 56.8,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ADSK",
+        "name": "Autodesk, Inc.",
+        "price": 264.74,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AEE",
+        "name": "Ameren Corporation",
+        "price": 71.32,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AEO",
+        "name": "American Eagle Outfitters, Inc.",
+        "price": 24.14,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AEP",
+        "name": "American Electric Power Company, Inc.",
+        "price": 84.99,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AES",
+        "name": "The AES Corporation",
+        "price": 15.47,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AET",
+        "name": "Aetna Inc.",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "AFG",
+        "name": "American Financial Group, Inc.",
+        "price": 127.37,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AFL",
+        "name": "Aflac Incorporated",
+        "price": 80.43,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AGCO",
+        "name": "AGCO Corporation",
+        "price": 110.46,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AGNC",
+        "name": "AGNC Investment Corp.",
+        "price": 9.58,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AGO",
+        "name": "Assured Guaranty Ltd.",
+        "price": 91.81,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AHL",
+        "name": "Aspen Insurance Holdings Limited",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "AIG",
+        "name": "American International Group, Inc.",
+        "price": 72.84,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AIV",
+        "name": "Apartment Investment and Management Company",
+        "price": 7.62,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AIZ",
+        "name": "Assurant, Inc.",
+        "price": 180.46,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AJG",
+        "name": "Arthur J. Gallagher & Co.",
+        "price": 243.54,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AKAM",
+        "name": "Akamai Technologies, Inc.",
+        "price": 110.24,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AL",
+        "name": "Air Lease Corporation",
+        "price": 39.9,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ALB",
+        "name": "Albemarle Corporation",
+        "price": 142.8,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ALEX",
+        "name": "Alexander & Baldwin, Inc.",
+        "price": 16.67,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ALL",
+        "name": "The Allstate Corporation",
+        "price": 155.15,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ALR",
+        "name": "AlerisLife Inc.",
+        "price": 1.32,
+        "exchange": "NASDAQ Capital Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ALSN",
+        "name": "Allison Transmission Holdings, Inc.",
+        "price": 75.4,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ALTR",
+        "name": "Altair Engineering Inc.",
+        "price": 85.68,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ALXN",
+        "name": "Alexion Pharmaceuticals, Inc.",
+        "price": 182.5,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMAT",
+        "name": "Applied Materials, Inc.",
+        "price": 210.25,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMCX",
+        "name": "AMC Networks Inc.",
+        "price": 13.15,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "price": 202.64,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AME",
+        "name": "AMETEK, Inc.",
+        "price": 180.68,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMG",
+        "name": "Affiliated Managers Group, Inc.",
+        "price": 157.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMGN",
+        "name": "Amgen Inc.",
+        "price": 280.33,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMP",
+        "name": "Ameriprise Financial, Inc.",
+        "price": 410.59,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMT",
+        "name": "American Tower Corporation",
+        "price": 201.76,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMTD",
+        "name": "AMTD IDEA Group",
+        "price": 1.71,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": 178.22,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AN",
+        "name": "AutoNation, Inc.",
+        "price": 151.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ANAT",
+        "name": "American National Group, Inc.",
+        "price": 188.99,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ANF",
+        "name": "Abercrombie & Fitch Co.",
+        "price": 131.37,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ANSS",
+        "name": "ANSYS, Inc.",
+        "price": 339.62,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AON",
+        "name": "Aon plc",
+        "price": 314.23,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "APA",
+        "name": "APA Corporation",
+        "price": 30.41,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "APD",
+        "name": "Air Products and Chemicals, Inc.",
+        "price": 236,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "APH",
+        "name": "Amphenol Corporation",
+        "price": 110.81,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "APOL",
+        "name": "1912746",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "ARCC",
+        "name": "Ares Capital Corporation",
+        "price": 20.23,
+        "exchange": "NASDAQ Global Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ARE",
+        "name": "Alexandria Real Estate Equities, Inc.",
+        "price": 124.27,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ARG",
+        "name": "386692",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "ARIA",
+        "name": "589378",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "ARW",
+        "name": "Arrow Electronics, Inc.",
+        "price": 120.19,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ASH",
+        "name": "Ashland Inc.",
+        "price": 95.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ATI",
+        "name": "ATI Inc.",
+        "price": 49.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ATML",
+        "name": "7682219",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "ATO",
+        "name": "Atmos Energy Corporation",
+        "price": 112.73,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ATR",
+        "name": "AptarGroup, Inc.",
+        "price": 140.29,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ATVI",
+        "name": "Activision Blizzard, Inc.",
+        "price": 94.42,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ATW",
+        "name": "258619",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "AVB",
+        "name": "AvalonBay Communities, Inc.",
+        "price": 178.14,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AVGO",
+        "name": "Broadcom Inc.",
+        "price": 1399.17,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AVT",
+        "name": "Avnet, Inc.",
+        "price": 47.57,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AVY",
+        "name": "Avery Dennison Corporation",
+        "price": 216.72,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AWAY",
+        "name": "ETFMG Travel Tech ETF",
+        "price": 19.61,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX",
+        "type": "etf"
+    },
+    {
+        "symbol": "AWH",
+        "name": "Aspira Women's Health Inc.",
+        "price": 3.995,
+        "exchange": "NASDAQ Capital Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "AWI",
+        "name": "Armstrong World Industries, Inc.",
+        "price": 120.94,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AWK",
+        "name": "American Water Works Company, Inc.",
+        "price": 119.68,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AXP",
+        "name": "American Express Company",
+        "price": 219.66,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AXS",
+        "name": "AXIS Capital Holdings Limited",
+        "price": 60.86,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "AZO",
+        "name": "AutoZone, Inc.",
+        "price": 3035.99,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BA",
+        "name": "The Boeing Company",
+        "price": 200,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BAC",
+        "name": "Bank of America Corporation",
+        "price": 34.35,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BAH",
+        "name": "Booz Allen Hamilton Holding Corporation",
+        "price": 148.18,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BAX",
+        "name": "Baxter International Inc.",
+        "price": 41.01,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BBBY",
+        "name": "Bed Bath & Beyond Inc.",
+        "price": 0.0751,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BBY",
+        "name": "Best Buy Co., Inc.",
+        "price": 77.92,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BDN",
+        "name": "Brandywine Realty Trust",
+        "price": 4.3,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "BDX",
+        "name": "Becton, Dickinson and Company",
+        "price": 235.31,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BEAM",
+        "name": "Beam Therapeutics Inc.",
+        "price": 39.84,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BEAV",
+        "name": "545035",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "BEN",
+        "name": "Franklin Resources, Inc.",
+        "price": 27.42,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BF-B",
+        "name": "Brown-Forman Corporation",
+        "price": 60.37,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BG",
+        "name": "Bunge Limited",
+        "price": 93.11,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BGC",
+        "name": "BGC Group, Inc",
+        "price": 7.1,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BIG",
+        "name": "Big Lots, Inc.",
+        "price": 5.44,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BIIB",
+        "name": "Biogen Inc.",
+        "price": 220.95,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BIO",
+        "name": "Bio-Rad Laboratories, Inc.",
+        "price": 332.3,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BK",
+        "name": "The Bank of New York Mellon Corporation",
+        "price": 55.49,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BKD",
+        "name": "Brookdale Senior Living Inc.",
+        "price": 5.57,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BKU",
+        "name": "BankUnited, Inc.",
+        "price": 26.23,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BLK",
+        "name": "BlackRock, Inc.",
+        "price": 814.83,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BLL",
+        "name": "Ball Corporation",
+        "price": 69.49,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BMR",
+        "name": "Beamr Imaging Ltd.",
+        "price": 7.01,
+        "exchange": "NASDAQ Global Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BMRN",
+        "name": "BioMarin Pharmaceutical Inc.",
+        "price": 87.14,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BMY",
+        "name": "Bristol-Myers Squibb Company",
+        "price": 50.89,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BOH",
+        "name": "Bank of Hawaii Corporation",
+        "price": 60.13,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BOKF",
+        "name": "BOK Financial Corporation",
+        "price": 84.84,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BPOP",
+        "name": "Popular, Inc.",
+        "price": 82.56,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BR",
+        "name": "Broadridge Financial Solutions, Inc.",
+        "price": 203.74,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BRCD",
+        "name": "9045151",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "BRCM",
+        "name": "7486608",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "BRK-B",
+        "name": "Berkshire Hathaway Inc.",
+        "price": 407.11,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BRKR",
+        "name": "Bruker Corporation",
+        "price": 88.33,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BRO",
+        "name": "Brown & Brown, Inc.",
+        "price": 83.74,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BSX",
+        "name": "Boston Scientific Corporation",
+        "price": 67.13,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BTU",
+        "name": "Peabody Energy Corporation",
+        "price": 25.03,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BWA",
+        "name": "BorgWarner Inc.",
+        "price": 31.15,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "BWC",
+        "name": "Blue Whale Acquisition Corp I",
+        "price": 10.14,
+        "exchange": "NASDAQ Capital Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "BXP",
+        "name": "Boston Properties, Inc.",
+        "price": 66.25,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "C",
+        "name": "Citigroup Inc.",
+        "price": 55.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CA",
+        "name": "DBX Etf Trust - Xtrackers California Municipal Bond Etf",
+        "price": 25.28,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "CAG",
+        "name": "Conagra Brands, Inc.",
+        "price": 27.78,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CAH",
+        "name": "Cardinal Health, Inc.",
+        "price": 113.37,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CAM",
+        "name": "1307688",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "CAT",
+        "name": "Caterpillar Inc.",
+        "price": 336.7,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CB",
+        "name": "Chubb Limited",
+        "price": 250.62,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CBI",
+        "name": "399641",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "CBL",
+        "name": "CBL & Associates Properties, Inc.",
+        "price": 23.12,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets, Inc.",
+        "price": 187.02,
+        "exchange": "CBOE BZX",
+        "exchangeShortName": "CBOE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CBSH",
+        "name": "Commerce Bancshares, Inc.",
+        "price": 51.92,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CBT",
+        "name": "Cabot Corporation",
+        "price": 85.63,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CCI",
+        "name": "Crown Castle Inc.",
+        "price": 111.06,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CCK",
+        "name": "Crown Holdings, Inc.",
+        "price": 76.32,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CCL",
+        "name": "Carnival Corporation & plc",
+        "price": 16,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CCO",
+        "name": "Clear Channel Outdoor Holdings, Inc.",
+        "price": 1.79,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CDNS",
+        "name": "Cadence Design Systems, Inc.",
+        "price": 315.24,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CE",
+        "name": "Celanese Corporation",
+        "price": 153.46,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CERN",
+        "name": "Cerner Corporation",
+        "price": 94.92,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CF",
+        "name": "CF Industries Holdings, Inc.",
+        "price": 82.5,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CFFN",
+        "name": "Capitol Federal Financial, Inc.",
+        "price": 5.65,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CFR",
+        "name": "Cullen/Frost Bankers, Inc.",
+        "price": 107.55,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CFX",
+        "name": "Colfax Corporation",
+        "price": 39.06,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CHD",
+        "name": "Church & Dwight Co., Inc.",
+        "price": 100.28,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CHH",
+        "name": "Choice Hotels International, Inc.",
+        "price": 109.83,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CHK",
+        "name": "Chesapeake Energy Corporation",
+        "price": 82.81,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CHRW",
+        "name": "C.H. Robinson Worldwide, Inc.",
+        "price": 73.88,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CHS",
+        "name": "Chico's FAS, Inc.",
+        "price": 7.59,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "price": 293.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CI",
+        "name": "Cigna Corporation",
+        "price": 332.96,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CIM",
+        "name": "Chimera Investment Corporation",
+        "price": 4.38,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CINF",
+        "name": "Cincinnati Financial Corporation",
+        "price": 113.54,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CIT",
+        "name": "CIT Group Inc.",
+        "price": 53.5,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CL",
+        "name": "Colgate-Palmolive Company",
+        "price": 86.49,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CLF",
+        "name": "Cleveland-Cliffs Inc.",
+        "price": 21.08,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CLH",
+        "name": "Clean Harbors, Inc.",
+        "price": 184.02,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CLI",
+        "name": "Mack-Cali Realty Corporation",
+        "price": 18.35,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "CLR",
+        "name": "Continental Resources, Inc.",
+        "price": 74.27,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CLX",
+        "name": "The Clorox Company",
+        "price": 152.08,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CMA",
+        "name": "Comerica Incorporated",
+        "price": 49.59,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CMC",
+        "name": "Commercial Metals Company",
+        "price": 53.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CMCSA",
+        "name": "Comcast Corporation",
+        "price": 42.8,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CME",
+        "name": "CME Group Inc.",
+        "price": 219.21,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill, Inc.",
+        "price": 2688.78,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CMI",
+        "name": "Cummins Inc.",
+        "price": 270.26,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CMP",
+        "name": "Compass Minerals International, Inc.",
+        "price": 23.57,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CMS",
+        "name": "CMS Energy Corporation",
+        "price": 58.14,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CNA",
+        "name": "CNA Financial Corporation",
+        "price": 43.06,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CNK",
+        "name": "Cinemark Holdings, Inc.",
+        "price": 17.58,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CNP",
+        "name": "CenterPoint Energy, Inc.",
+        "price": 27.44,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CNX",
+        "name": "CNX Resources Corporation",
+        "price": 21.09,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "COF",
+        "name": "Capital One Financial Corporation",
+        "price": 136.77,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "COG",
+        "name": "Cabot Oil & Gas Corporation",
+        "price": 22.25,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "COL",
+        "name": "Rockwell Collins, Inc.",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "COO",
+        "name": "The Cooper Companies, Inc.",
+        "price": 102.19,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "COP",
+        "name": "ConocoPhillips",
+        "price": 114.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "COST",
+        "name": "Costco Wholesale Corporation",
+        "price": 749.44,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CPA",
+        "name": "Copa Holdings, S.A.",
+        "price": 97.97,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CPB",
+        "name": "Campbell Soup Company",
+        "price": 42.87,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CPN",
+        "name": "13310434",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "CPRT",
+        "name": "Copart, Inc.",
+        "price": 53.58,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CPT",
+        "name": "Camden Property Trust",
+        "price": 95.8,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "CPWR",
+        "name": "Ocean Thermal Energy Corporation",
+        "price": 0.011,
+        "exchange": "Other OTC",
+        "exchangeShortName": "PNK",
+        "type": "stock"
+    },
+    {
+        "symbol": "CR",
+        "name": "Crane Company",
+        "price": 122.5,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CREE",
+        "name": "Cree, Inc.",
+        "price": 79.12,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CRI",
+        "name": "Carter's, Inc.",
+        "price": 80.4,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CRL",
+        "name": "Charles River Laboratories International, Inc.",
+        "price": 264.38,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CRM",
+        "name": "Salesforce, Inc.",
+        "price": 316.88,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CRS",
+        "name": "Carpenter Technology Corporation",
+        "price": 65.93,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CSC",
+        "name": "1056883",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "CSCO",
+        "name": "Cisco Systems, Inc.",
+        "price": 48.4,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CSL",
+        "name": "Carlisle Companies Incorporated",
+        "price": 347.1,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CSX",
+        "name": "CSX Corporation",
+        "price": 38.23,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CTAS",
+        "name": "Cintas Corporation",
+        "price": 628.36,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CTSH",
+        "name": "Cognizant Technology Solutions Corporation",
+        "price": 78.61,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CTXS",
+        "name": "Citrix Systems, Inc.",
+        "price": 103.9,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CVA",
+        "name": "Covanta Holding Corporation",
+        "price": 20.26,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CVC",
+        "name": "2393377",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "CVS",
+        "name": "CVS Health Corporation",
+        "price": 73.84,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CVX",
+        "name": "Chevron Corporation",
+        "price": 152.81,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CWH",
+        "name": "Camping World Holdings, Inc.",
+        "price": 27.48,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CXW",
+        "name": "CoreCivic, Inc.",
+        "price": 14.99,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CYH",
+        "name": "Community Health Systems, Inc.",
+        "price": 2.87,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "CYN",
+        "name": "Cyngn Inc.",
+        "price": 0.197,
+        "exchange": "NASDAQ Capital Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "CYT",
+        "name": "Cyteir Therapeutics, Inc.",
+        "price": 3.1,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "D",
+        "name": "Dominion Energy, Inc.",
+        "price": 44.79,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DAL",
+        "name": "Delta Air Lines, Inc.",
+        "price": 42.16,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DBD",
+        "name": "Diebold Nixdorf, Incorporated",
+        "price": 32.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DCI",
+        "name": "Donaldson Company, Inc.",
+        "price": 72.52,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DD",
+        "name": "DuPont de Nemours, Inc.",
+        "price": 69.56,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DDS",
+        "name": "Dillard's, Inc.",
+        "price": 411.54,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DE",
+        "name": "Deere & Company",
+        "price": 367.85,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DECK",
+        "name": "Deckers Outdoor Corporation",
+        "price": 903.29,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DEI",
+        "name": "Douglas Emmett, Inc.",
+        "price": 13.42,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "price": 124.59,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DFS",
+        "name": "Discover Financial Services",
+        "price": 120.81,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DG",
+        "name": "Dollar General Corporation",
+        "price": 149.26,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DGX",
+        "name": "Quest Diagnostics Incorporated",
+        "price": 124.68,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DHI",
+        "name": "D.R. Horton, Inc.",
+        "price": 152.97,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DHR",
+        "name": "Danaher Corporation",
+        "price": 255.87,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DIS",
+        "name": "The Walt Disney Company",
+        "price": 111.95,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DISCA",
+        "name": "Warner Bros. Discovery, Inc.",
+        "price": 24.43,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "DISH",
+        "name": "DISH Network Corporation",
+        "price": 5.77,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "DKS",
+        "name": "DICK'S Sporting Goods, Inc.",
+        "price": 181.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DLB",
+        "name": "Dolby Laboratories, Inc.",
+        "price": 82.35,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DLR",
+        "name": "Digital Realty Trust, Inc.",
+        "price": 150.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DLTR",
+        "name": "Dollar Tree, Inc.",
+        "price": 148.44,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "DNB",
+        "name": "Dun & Bradstreet Holdings, Inc.",
+        "price": 10.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DO",
+        "name": "Diamond Offshore Drilling, Inc.",
+        "price": 11.85,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DOV",
+        "name": "Dover Corporation",
+        "price": 167.3,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DOW",
+        "name": "Dow Inc.",
+        "price": 55.77,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DOX",
+        "name": "Amdocs Limited",
+        "price": 91.18,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "DRE",
+        "name": "Duke Realty Corporation",
+        "price": 48.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DRI",
+        "name": "Darden Restaurants, Inc.",
+        "price": 171.29,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DST",
+        "name": "618500",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "DTE",
+        "name": "DTE Energy Company",
+        "price": 108.11,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DUK",
+        "name": "Duke Energy Corporation",
+        "price": 90.86,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DV",
+        "name": "DoubleVerify Holdings, Inc.",
+        "price": 31.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DVA",
+        "name": "DaVita Inc.",
+        "price": 126.92,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DVN",
+        "name": "Devon Energy Corporation",
+        "price": 44.39,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "DWA",
+        "name": "919514",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "EA",
+        "name": "Electronic Arts Inc.",
+        "price": 140.79,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "EAT",
+        "name": "Brinker International, Inc.",
+        "price": 46.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EBAY",
+        "name": "eBay Inc.",
+        "price": 48.05,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ECL",
+        "name": "Ecolab Inc.",
+        "price": 225.51,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ED",
+        "name": "Consolidated Edison, Inc.",
+        "price": 87.01,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EFX",
+        "name": "Equifax Inc.",
+        "price": 270.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EGN",
+        "name": "Energen Corporation",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "EIX",
+        "name": "Edison International",
+        "price": 66.55,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EL",
+        "name": "The Est\u00e9e Lauder Companies Inc.",
+        "price": 148.83,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ELS",
+        "name": "Equity LifeStyle Properties, Inc.",
+        "price": 66.92,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EMC",
+        "name": "11847908",
+        "price": 25.95,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "etf"
+    },
+    {
+        "symbol": "EMN",
+        "name": "Eastman Chemical Company",
+        "price": 87.09,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EMR",
+        "name": "Emerson Electric Co.",
+        "price": 108.14,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ENDP",
+        "name": "Endo International plc",
+        "price": 0.3744,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ENH",
+        "name": "336774",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "ENR",
+        "name": "Energizer Holdings, Inc.",
+        "price": 28.72,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EOG",
+        "name": "EOG Resources, Inc.",
+        "price": 116.1,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EQIX",
+        "name": "Equinix, Inc.",
+        "price": 900.53,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "EQR",
+        "name": "Equity Residential",
+        "price": 60.74,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EQT",
+        "name": "EQT Corporation",
+        "price": 37.01,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ERIE",
+        "name": "Erie Indemnity Company",
+        "price": 404.29,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ESI",
+        "name": "Element Solutions Inc",
+        "price": 23.63,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ESRX",
+        "name": "Express Scripts Holding Company",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "ESS",
+        "name": "Essex Property Trust, Inc.",
+        "price": 234.37,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ETN",
+        "name": "Eaton Corporation plc",
+        "price": 293.7,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ETR",
+        "name": "Entergy Corporation",
+        "price": 100.47,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EV",
+        "name": "NEOS ETF Trust - Mast Global Battery Recycling & Production ETF",
+        "price": 23.2476,
+        "exchange": "New York Stock Exchange Arca",
+        "exchangeShortName": "AMEX",
+        "type": "etf"
+    },
+    {
+        "symbol": "EW",
+        "name": "Edwards Lifesciences Corporation",
+        "price": 85.22,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EWBC",
+        "name": "East West Bancorp, Inc.",
+        "price": 72.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "EXC",
+        "name": "Exelon Corporation",
+        "price": 35.49,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "EXPD",
+        "name": "Expeditors International of Washington, Inc.",
+        "price": 120.64,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "EXPE",
+        "name": "Expedia Group, Inc.",
+        "price": 136.84,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "EXR",
+        "name": "Extra Space Storage Inc.",
+        "price": 143.36,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "F",
+        "name": "Ford Motor Company",
+        "price": 12.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FAST",
+        "name": "Fastenal Company",
+        "price": 72.84,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FBHS",
+        "name": "Fortune Brands Home & Security, Inc.",
+        "price": 61.9,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FCNCA",
+        "name": "First Citizens BancShares, Inc.",
+        "price": 1567.65,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FCS",
+        "name": "1622394",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "FCX",
+        "name": "Freeport-McMoRan Inc.",
+        "price": 37.93,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FDS",
+        "name": "FactSet Research Systems Inc.",
+        "price": 461.32,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FDX",
+        "name": "FedEx Corporation",
+        "price": 246.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FE",
+        "name": "FirstEnergy Corp.",
+        "price": 36.5,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FFIV",
+        "name": "F5, Inc.",
+        "price": 189.97,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FHN",
+        "name": "First Horizon Corporation",
+        "price": 14.04,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FIS",
+        "name": "Fidelity National Information Services, Inc.",
+        "price": 69.21,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FISV",
+        "name": "Fiserv, Inc.",
+        "price": 114.23,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FITB",
+        "name": "Fifth Third Bancorp",
+        "price": 34.37,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FL",
+        "name": "Foot Locker, Inc.",
+        "price": 34.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FLO",
+        "name": "Flowers Foods, Inc.",
+        "price": 22.23,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FLR",
+        "name": "Fluor Corporation",
+        "price": 36.65,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FLS",
+        "name": "Flowserve Corporation",
+        "price": 42.64,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FLT",
+        "name": "FLEETCOR Technologies, Inc.",
+        "price": 276.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FMC",
+        "name": "FMC Corporation",
+        "price": 57.31,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FNF",
+        "name": "Fidelity National Financial, Inc.",
+        "price": 50.49,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FNFG",
+        "name": "379126",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "FOSL",
+        "name": "Fossil Group, Inc.",
+        "price": 1.03,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FRC",
+        "name": "First Republic Bank",
+        "price": 3.51,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FRT",
+        "name": "Federal Realty Investment Trust",
+        "price": 99.92,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "FRX",
+        "name": "Forest Road Acquisition Corp.",
+        "price": 12,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FTI",
+        "name": "TechnipFMC plc",
+        "price": 22.58,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "FTNT",
+        "name": "Fortinet, Inc.",
+        "price": 70.44,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "FULT",
+        "name": "Fulton Financial Corporation",
+        "price": 15.31,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "G",
+        "name": "Genpact Limited",
+        "price": 33.94,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GCI",
+        "name": "Gannett Co., Inc.",
+        "price": 2.11,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GD",
+        "name": "General Dynamics Corporation",
+        "price": 271.95,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GE",
+        "name": "General Electric Company",
+        "price": 158.65,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GEF",
+        "name": "Greif, Inc.",
+        "price": 63.75,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GES",
+        "name": "Guess', Inc.",
+        "price": 25.34,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GGG",
+        "name": "Graco Inc.",
+        "price": 91.28,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GILD",
+        "name": "Gilead Sciences, Inc.",
+        "price": 72.31,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "GIS",
+        "name": "General Mills, Inc.",
+        "price": 63.94,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GLNG",
+        "name": "Golar LNG Limited",
+        "price": 20.78,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "GLW",
+        "name": "Corning Incorporated",
+        "price": 32.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GM",
+        "name": "General Motors Company",
+        "price": 40.99,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GMCR",
+        "name": "26885",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "GME",
+        "name": "GameStop Corp.",
+        "price": 14.95,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GNTX",
+        "name": "Gentex Corporation",
+        "price": 36.76,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "GNW",
+        "name": "Genworth Financial, Inc.",
+        "price": 6.13,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GOOG",
+        "name": "Alphabet Inc.",
+        "price": 138.08,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "GPC",
+        "name": "Genuine Parts Company",
+        "price": 149.21,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GPN",
+        "name": "Global Payments Inc.",
+        "price": 130.09,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GPS",
+        "name": "The Gap, Inc.",
+        "price": 19.06,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GRMN",
+        "name": "Garmin Ltd.",
+        "price": 137.43,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GRPN",
+        "name": "Groupon, Inc.",
+        "price": 18.92,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "GS",
+        "name": "The Goldman Sachs Group, Inc.",
+        "price": 388.1,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GT",
+        "name": "The Goodyear Tire & Rubber Company",
+        "price": 11.73,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "GWW",
+        "name": "W.W. Grainger, Inc.",
+        "price": 980.9,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "GXP",
+        "name": "312276",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "H",
+        "name": "Hyatt Hotels Corporation",
+        "price": 157.85,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HAL",
+        "name": "Halliburton Company",
+        "price": 35.64,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HAS",
+        "name": "Hasbro, Inc.",
+        "price": 50.25,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "HBAN",
+        "name": "Huntington Bancshares Incorporated",
+        "price": 12.95,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "HBI",
+        "name": "Hanesbrands Inc.",
+        "price": 5.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HCA",
+        "name": "HCA Healthcare, Inc.",
+        "price": 311.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HCC",
+        "name": "Warrior Met Coal, Inc.",
+        "price": 57.54,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HCP",
+        "name": "HashiCorp, Inc.",
+        "price": 25.87,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "HD",
+        "name": "The Home Depot, Inc.",
+        "price": 384.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HE",
+        "name": "Hawaiian Electric Industries, Inc.",
+        "price": 11.95,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HES",
+        "name": "Hess Corporation",
+        "price": 148.19,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HFC",
+        "name": "HF Sinclair Corporation",
+        "price": 36.39,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HHC",
+        "name": "The Howard Hughes Corporation",
+        "price": 78.76,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HIG",
+        "name": "The Hartford Financial Services Group, Inc.",
+        "price": 94.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HII",
+        "name": "Huntington Ingalls Industries, Inc.",
+        "price": 292.46,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HLF",
+        "name": "Herbalife Nutrition Ltd.",
+        "price": 8.75,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HMA",
+        "name": "Heartland Media Acquisition Corp.",
+        "price": 10.54,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HOG",
+        "name": "Harley-Davidson, Inc.",
+        "price": 36.34,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HOLX",
+        "name": "Hologic, Inc.",
+        "price": 73.65,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "HON",
+        "name": "Honeywell International Inc.",
+        "price": 198.67,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "HOT",
+        "name": "1659453",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "HP",
+        "name": "Helmerich & Payne, Inc.",
+        "price": 38.99,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HPQ",
+        "name": "HP Inc.",
+        "price": 29.41,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HRB",
+        "name": "H&R Block, Inc.",
+        "price": 48.14,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HRC",
+        "name": "Hill-Rom Holdings, Inc.",
+        "price": 155.96,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HRL",
+        "name": "Hormel Foods Corporation",
+        "price": 33.37,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HSC",
+        "name": "Harsco Corporation",
+        "price": 9.15,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HSIC",
+        "name": "Henry Schein, Inc.",
+        "price": 76.88,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "HST",
+        "name": "Host Hotels & Resorts, Inc.",
+        "price": 20.95,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "HSY",
+        "name": "The Hershey Company",
+        "price": 188.05,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HTS",
+        "name": "Hatteras Financial Corp Hattera",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "HTZ",
+        "name": "Hertz Global Holdings, Inc.",
+        "price": 7.82,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "price": 352.03,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "HUN",
+        "name": "Huntsman Corporation",
+        "price": 25.25,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "IBKR",
+        "name": "Interactive Brokers Group, Inc.",
+        "price": 110.48,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "IBM",
+        "name": "International Business Machines Corporation",
+        "price": 188.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ICE",
+        "name": "Intercontinental Exchange, Inc.",
+        "price": 138.57,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "IDXX",
+        "name": "IDEXX Laboratories, Inc.",
+        "price": 576.87,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "IEX",
+        "name": "IDEX Corporation",
+        "price": 239.47,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "IFF",
+        "name": "International Flavors & Fragrances Inc.",
+        "price": 75.88,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "IGT",
+        "name": "International Game Technology PLC",
+        "price": 26.64,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "IHS",
+        "name": "IHS Holding Limited",
+        "price": 2.79,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ILMN",
+        "name": "Illumina, Inc.",
+        "price": 140.5,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "INCY",
+        "name": "Incyte Corporation",
+        "price": 59.05,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "INFA",
+        "name": "Informatica Inc.",
+        "price": 32.46,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "INGR",
+        "name": "Ingredion Incorporated",
+        "price": 117.13,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "INT",
+        "name": "World Fuel Services Corporation",
+        "price": 24.26,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "price": 43.82,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "INTU",
+        "name": "Intuit Inc.",
+        "price": 666.52,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "IP",
+        "name": "International Paper Company",
+        "price": 35.05,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "IPG",
+        "name": "The Interpublic Group of Companies, Inc.",
+        "price": 31.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "IPGP",
+        "name": "IPG Photonics Corporation",
+        "price": 87.67,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "IPI",
+        "name": "Intrepid Potash, Inc.",
+        "price": 21.07,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "IR",
+        "name": "Ingersoll Rand Inc.",
+        "price": 91.63,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "IRM",
+        "name": "Iron Mountain Incorporated",
+        "price": 81.03,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ISRG",
+        "name": "Intuitive Surgical, Inc.",
+        "price": 397.9,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "IT",
+        "name": "Gartner, Inc.",
+        "price": 471.48,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ITRI",
+        "name": "Itron, Inc.",
+        "price": 93.18,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ITT",
+        "name": "ITT Inc.",
+        "price": 126.66,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ITW",
+        "name": "Illinois Tool Works Inc.",
+        "price": 260.19,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "IVZ",
+        "name": "Invesco Ltd.",
+        "price": 15.53,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "JBHT",
+        "name": "J.B. Hunt Transport Services, Inc.",
+        "price": 203.33,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "JBL",
+        "name": "Jabil Inc.",
+        "price": 147.18,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "JCI",
+        "name": "Johnson Controls International plc",
+        "price": 60.12,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "JKHY",
+        "name": "Jack Henry & Associates, Inc.",
+        "price": 171.96,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "JLL",
+        "name": "Jones Lang LaSalle Incorporated",
+        "price": 192.86,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "JNJ",
+        "name": "Johnson & Johnson",
+        "price": 162.12,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "JNPR",
+        "name": "Juniper Networks, Inc.",
+        "price": 37.37,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "JNS",
+        "name": "1682288",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "JOE",
+        "name": "The St. Joe Company",
+        "price": 54,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "JOY",
+        "name": "Joy Global Inc.",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "JPM",
+        "name": "JPMorgan Chase & Co.",
+        "price": 185.29,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "JW-A",
+        "name": "John Wiley & Sons, Inc.",
+        "price": 53.03,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "JWN",
+        "name": "Nordstrom, Inc.",
+        "price": 20.72,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "K",
+        "name": "Kellogg Company",
+        "price": 54.83,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KAR",
+        "name": "KAR Auction Services, Inc.",
+        "price": 15.86,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KBR",
+        "name": "KBR, Inc.",
+        "price": 59.91,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KEX",
+        "name": "Kirby Corporation",
+        "price": 87.74,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KEY",
+        "name": "KeyCorp",
+        "price": 14.19,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KIM",
+        "name": "Kimco Realty Corporation",
+        "price": 19.73,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KLAC",
+        "name": "KLA Corporation",
+        "price": 717.57,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "KMB",
+        "name": "Kimberly-Clark Corporation",
+        "price": 122.9,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KMI",
+        "name": "Kinder Morgan, Inc.",
+        "price": 17.46,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KMPR",
+        "name": "Kemper Corporation",
+        "price": 57.57,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KMT",
+        "name": "Kennametal Inc.",
+        "price": 25.18,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KMX",
+        "name": "CarMax, Inc.",
+        "price": 79.3,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KO",
+        "name": "The Coca-Cola Company",
+        "price": 59.53,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KOS",
+        "name": "Kosmos Energy Ltd.",
+        "price": 6.25,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KR",
+        "name": "The Kroger Co.",
+        "price": 49.16,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KRC",
+        "name": "Kilroy Realty Corporation",
+        "price": 36.69,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KRO",
+        "name": "Kronos Worldwide, Inc.",
+        "price": 9.19,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KSS",
+        "name": "Kohl's Corporation",
+        "price": 27.74,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "KSU",
+        "name": "Kansas City Southern",
+        "price": 293.59,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "L",
+        "name": "Loews Corporation",
+        "price": 74.43,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LAMR",
+        "name": "Lamar Advertising Company",
+        "price": 111.37,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LAZ",
+        "name": "Lazard Ltd",
+        "price": 39.19,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LBTYA",
+        "name": "Liberty Global plc",
+        "price": 17.39,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LEA",
+        "name": "Lear Corporation",
+        "price": 136.42,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LECO",
+        "name": "Lincoln Electric Holdings, Inc.",
+        "price": 254.19,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LEG",
+        "name": "Leggett & Platt, Incorporated",
+        "price": 20.63,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LEN",
+        "name": "Lennar Corporation",
+        "price": 161.48,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LH",
+        "name": "Laboratory Corporation of America Holdings",
+        "price": 218,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LIFE",
+        "name": "aTyr Pharma, Inc.",
+        "price": 1.91,
+        "exchange": "NASDAQ Capital Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LII",
+        "name": "Lennox International Inc.",
+        "price": 472.95,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LKQ",
+        "name": "LKQ Corporation",
+        "price": 51.98,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LLL",
+        "name": "JX Luxventure Limited",
+        "price": 0.8391,
+        "exchange": "NASDAQ Capital Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LLTC",
+        "name": "4104459",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "LLY",
+        "name": "Eli Lilly and Company",
+        "price": 782.12,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LMT",
+        "name": "Lockheed Martin Corporation",
+        "price": 426.46,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LNC",
+        "name": "Lincoln National Corporation",
+        "price": 27.7,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LNG",
+        "name": "Cheniere Energy, Inc.",
+        "price": 156.18,
+        "exchange": "American Stock Exchange",
+        "exchangeShortName": "AMEX",
+        "type": "stock"
+    },
+    {
+        "symbol": "LNT",
+        "name": "Alliant Energy Corporation",
+        "price": 47.73,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LOW",
+        "name": "Lowe's Companies, Inc.",
+        "price": 244.69,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LPI",
+        "name": "Laredo Petroleum, Inc.",
+        "price": 48.09,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LPLA",
+        "name": "LPL Financial Holdings Inc.",
+        "price": 266.24,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LPNT",
+        "name": "LifePoint Health, Inc.",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "LRCX",
+        "name": "Lam Research Corporation",
+        "price": 981.53,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LSI",
+        "name": "Life Storage, Inc.",
+        "price": 133.1,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LSTR",
+        "name": "Landstar System, Inc.",
+        "price": 186.74,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "LUV",
+        "name": "Southwest Airlines Co.",
+        "price": 33.96,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LVLT",
+        "name": "5836511",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "LVS",
+        "name": "Las Vegas Sands Corp.",
+        "price": 51.28,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "LXK",
+        "name": "1732416",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "LYB",
+        "name": "LyondellBasell Industries N.V.",
+        "price": 99.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "M",
+        "name": "Macy's, Inc.",
+        "price": 18.01,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MA",
+        "name": "Mastercard Incorporated",
+        "price": 476.63,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MAA",
+        "name": "Mid-America Apartment Communities, Inc.",
+        "price": 127.63,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MAC",
+        "name": "The Macerich Company",
+        "price": 16.52,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MAN",
+        "name": "ManpowerGroup Inc.",
+        "price": 73.31,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MAR",
+        "name": "Marriott International, Inc.",
+        "price": 250,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MAS",
+        "name": "Masco Corporation",
+        "price": 77.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MAT",
+        "name": "Mattel, Inc.",
+        "price": 19.52,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MBI",
+        "name": "MBIA Inc.",
+        "price": 6.71,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MCD",
+        "name": "McDonald's Corporation",
+        "price": 290.73,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MCHP",
+        "name": "Microchip Technology Incorporated",
+        "price": 87,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MCK",
+        "name": "McKesson Corporation",
+        "price": 525.88,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MCO",
+        "name": "Moody's Corporation",
+        "price": 382.04,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MCY",
+        "name": "Mercury General Corporation",
+        "price": 48.42,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MD",
+        "name": "Pediatrix Medical Group, Inc.",
+        "price": 8.77,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MDLZ",
+        "name": "Mondelez International, Inc.",
+        "price": 72.37,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MDRX",
+        "name": "Allscripts Healthcare Solutions, Inc.",
+        "price": 6.81,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MDT",
+        "name": "Medtronic plc",
+        "price": 83.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MDU",
+        "name": "MDU Resources Group, Inc.",
+        "price": 21.67,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MET",
+        "name": "MetLife, Inc.",
+        "price": 69.73,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MFA",
+        "name": "MFA Financial, Inc.",
+        "price": 11.23,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MGM",
+        "name": "MGM Resorts International",
+        "price": 42.96,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MHK",
+        "name": "Mohawk Industries, Inc.",
+        "price": 121.41,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MJN",
+        "name": "2789",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "MKC",
+        "name": "McCormick & Company, Incorporated",
+        "price": 67.81,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MKL",
+        "name": "Markel Corporation",
+        "price": 1493.76,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MLM",
+        "name": "Martin Marietta Materials, Inc.",
+        "price": 589.95,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MMC",
+        "name": "Marsh & McLennan Companies, Inc.",
+        "price": 202,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MMM",
+        "name": "3M Company",
+        "price": 91.86,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MNST",
+        "name": "Monster Beverage Corporation",
+        "price": 58.79,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MO",
+        "name": "Altria Group, Inc.",
+        "price": 40.86,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MON",
+        "name": "Monument Circle Acquisition Corp.",
+        "price": 10.07,
+        "exchange": "NASDAQ Capital Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MORN",
+        "name": "Morningstar, Inc.",
+        "price": 298.25,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MOS",
+        "name": "The Mosaic Company",
+        "price": 31.63,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MPC",
+        "name": "Marathon Petroleum Corporation",
+        "price": 173.21,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MRC",
+        "name": "MRC Global Inc.",
+        "price": 11.99,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MRK",
+        "name": "Merck & Co., Inc.",
+        "price": 126.96,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MRO",
+        "name": "Marathon Oil Corporation",
+        "price": 24.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "price": 77.61,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MS",
+        "name": "Morgan Stanley",
+        "price": 86.48,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MSCI",
+        "name": "MSCI Inc.",
+        "price": 565.48,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": 415.5,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MSI",
+        "name": "Motorola Solutions, Inc.",
+        "price": 335.56,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MSM",
+        "name": "MSC Industrial Direct Co., Inc.",
+        "price": 100.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MTB",
+        "name": "M&T Bank Corporation",
+        "price": 136.91,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MTD",
+        "name": "Mettler-Toledo International Inc.",
+        "price": 1267.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MTW",
+        "name": "The Manitowoc Company, Inc.",
+        "price": 13.56,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MU",
+        "name": "Micron Technology, Inc.",
+        "price": 95.15,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MUR",
+        "name": "Murphy Oil Corporation",
+        "price": 40.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "MXIM",
+        "name": "Maxim Integrated Products, Inc.",
+        "price": 103.14,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "MYGN",
+        "name": "Myriad Genetics, Inc.",
+        "price": 22.18,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NATI",
+        "name": "National Instruments Corporation",
+        "price": 59.99,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NAV",
+        "name": "Navistar International Corporation",
+        "price": 44.5,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NBR",
+        "name": "Nabors Industries Ltd.",
+        "price": 81.63,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NCR",
+        "name": "NCR Corporation",
+        "price": 27.08,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NDAQ",
+        "name": "Nasdaq, Inc.",
+        "price": 56.53,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NDSN",
+        "name": "Nordson Corporation",
+        "price": 266.09,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NEE",
+        "name": "NextEra Energy, Inc.",
+        "price": 55.21,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NEM",
+        "name": "Newmont Corporation",
+        "price": 31.94,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NEU",
+        "name": "NewMarket Corporation",
+        "price": 643.89,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NFG",
+        "name": "National Fuel Gas Company",
+        "price": 48.76,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NFLX",
+        "name": "Netflix, Inc.",
+        "price": 619.34,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NFX",
+        "name": "Newfield Exploration Company",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "NI",
+        "name": "NiSource Inc.",
+        "price": 26.13,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NKE",
+        "name": "NIKE, Inc.",
+        "price": 101.88,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NLSN",
+        "name": "Nielsen Holdings plc",
+        "price": 27.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NLY",
+        "name": "Annaly Capital Management, Inc.",
+        "price": 19.29,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NNN",
+        "name": "National Retail Properties, Inc.",
+        "price": 41.22,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NOC",
+        "name": "Northrop Grumman Corporation",
+        "price": 454.9,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NOV",
+        "name": "NOV Inc.",
+        "price": 17.1,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NRG",
+        "name": "NRG Energy, Inc.",
+        "price": 56.71,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NSC",
+        "name": "Norfolk Southern Corporation",
+        "price": 257.49,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NSR",
+        "name": "Nomad Royalty Company Ltd.",
+        "price": 7.76,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NTAP",
+        "name": "NetApp, Inc.",
+        "price": 105.31,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NTRS",
+        "name": "Northern Trust Corporation",
+        "price": 82.66,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "NU",
+        "name": "Nu Holdings Ltd.",
+        "price": 11.27,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NUAN",
+        "name": "Nuance Communications, Inc.",
+        "price": 55.99,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NUE",
+        "name": "Nucor Corporation",
+        "price": 190.7,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NUS",
+        "name": "Nu Skin Enterprises, Inc.",
+        "price": 12.64,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": 822.79,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NVR",
+        "name": "NVR, Inc.",
+        "price": 7687.1,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "NWL",
+        "name": "Newell Brands Inc.",
+        "price": 7.55,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NWSA",
+        "name": "News Corporation",
+        "price": 26.33,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "NYCB",
+        "name": "New York Community Bancorp, Inc.",
+        "price": 3.55,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "O",
+        "name": "Realty Income Corporation",
+        "price": 52.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "OC",
+        "name": "Owens Corning",
+        "price": 151.67,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "OFC",
+        "name": "Corporate Office Properties Trust",
+        "price": 24.94,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "OGE",
+        "name": "OGE Energy Corp.",
+        "price": 32.84,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "OI",
+        "name": "O-I Glass, Inc.",
+        "price": 17.21,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "OII",
+        "name": "Oceaneering International, Inc.",
+        "price": 20.64,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "OIS",
+        "name": "Oil States International, Inc.",
+        "price": 5.68,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "OKE",
+        "name": "ONEOK, Inc.",
+        "price": 75.13,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "OMC",
+        "name": "Omnicom Group Inc.",
+        "price": 88.44,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ORCL",
+        "name": "Oracle Corporation",
+        "price": 113.78,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ORI",
+        "name": "Old Republic International Corporation",
+        "price": 29.17,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ORLY",
+        "name": "O'Reilly Automotive, Inc.",
+        "price": 1085.45,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "OSK",
+        "name": "Oshkosh Corporation",
+        "price": 111.79,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "OXY",
+        "name": "Occidental Petroleum Corporation",
+        "price": 61.36,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "P",
+        "name": "Pandora Media, Inc.",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "PAY",
+        "name": "Paymentus Holdings, Inc.",
+        "price": 15.82,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PAYX",
+        "name": "Paychex, Inc.",
+        "price": 122.23,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PBCT",
+        "name": "People's United Financial, Inc.",
+        "price": 19.41,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PBI",
+        "name": "Pitney Bowes Inc.",
+        "price": 4.17,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PCAR",
+        "name": "PACCAR Inc",
+        "price": 113.19,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PCG",
+        "name": "PG&E Corporation",
+        "price": 16.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PCL",
+        "name": "648505",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "PCP",
+        "name": "534994",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "PDCO",
+        "name": "Patterson Companies, Inc.",
+        "price": 27.35,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PDM",
+        "name": "Piedmont Office Realty Trust, Inc.",
+        "price": 6.19,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PEG",
+        "name": "Public Service Enterprise Group Incorporated",
+        "price": 62.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PENN",
+        "name": "PENN Entertainment, Inc.",
+        "price": 18.5,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PEP",
+        "name": "PepsiCo, Inc.",
+        "price": 164.59,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PFE",
+        "name": "Pfizer Inc.",
+        "price": 26.59,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PFG",
+        "name": "Principal Financial Group, Inc.",
+        "price": 80.05,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PG",
+        "name": "The Procter & Gamble Company",
+        "price": 158.85,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PGR",
+        "name": "The Progressive Corporation",
+        "price": 187.83,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PH",
+        "name": "Parker-Hannifin Corporation",
+        "price": 537.8,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PHM",
+        "name": "PulteGroup, Inc.",
+        "price": 111.21,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PII",
+        "name": "Polaris Inc.",
+        "price": 93.46,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PKG",
+        "name": "Packaging Corporation of America",
+        "price": 180.19,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PKI",
+        "name": "PerkinElmer, Inc.",
+        "price": 115.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PL",
+        "name": "Planet Labs PBC",
+        "price": 2.25,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PLCM",
+        "name": "1357647",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "PLD",
+        "name": "Prologis, Inc.",
+        "price": 134.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PLL",
+        "name": "Piedmont Lithium Inc.",
+        "price": 15.43,
+        "exchange": "NASDAQ Capital Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PM",
+        "name": "Philip Morris International Inc.",
+        "price": 89.83,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PMCS",
+        "name": "5032257",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "PNC",
+        "name": "The PNC Financial Services Group, Inc.",
+        "price": 147.81,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PNR",
+        "name": "Pentair plc",
+        "price": 78.33,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PNRA",
+        "name": "742177",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "PNW",
+        "name": "Pinnacle West Capital Corporation",
+        "price": 68.05,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "POM",
+        "name": "574649",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "PPG",
+        "name": "PPG Industries, Inc.",
+        "price": 139.52,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PPL",
+        "name": "PPL Corporation",
+        "price": 26.14,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PPS",
+        "name": "210395",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "PRA",
+        "name": "ProAssurance Corporation",
+        "price": 13,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PRE",
+        "name": "Prenetics Global Limited",
+        "price": 4.86,
+        "exchange": "NASDAQ Global Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PRGO",
+        "name": "Perrigo Company plc",
+        "price": 26.33,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PRU",
+        "name": "Prudential Financial, Inc.",
+        "price": 108.01,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PSA",
+        "name": "Public Storage",
+        "price": 283.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PSX",
+        "name": "Phillips 66",
+        "price": 144.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PTEN",
+        "name": "Patterson-UTI Energy, Inc.",
+        "price": 11.74,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "PVH",
+        "name": "PVH Corp.",
+        "price": 137.84,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PWR",
+        "name": "Quanta Services, Inc.",
+        "price": 240.89,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PX",
+        "name": "P10, Inc.",
+        "price": 8.33,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "PXD",
+        "name": "Pioneer Natural Resources Company",
+        "price": 237.27,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "QCOM",
+        "name": "QUALCOMM Incorporated",
+        "price": 163.09,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "QGEN",
+        "name": "Qiagen N.V.",
+        "price": 43.45,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "R",
+        "name": "Ryder System, Inc.",
+        "price": 113.56,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RAI",
+        "name": "775589",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "RBC",
+        "name": "RBC Bearings Incorporated",
+        "price": 266.36,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RCL",
+        "name": "Royal Caribbean Cruises Ltd.",
+        "price": 124.26,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RE",
+        "name": "Everest Re Group, Ltd.",
+        "price": 351.28,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "REG",
+        "name": "Regency Centers Corporation",
+        "price": 61.75,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "REGN",
+        "name": "Regeneron Pharmaceuticals, Inc.",
+        "price": 982.82,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "RES",
+        "name": "RPC, Inc.",
+        "price": 7.51,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RF",
+        "name": "Regions Financial Corporation",
+        "price": 18.59,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RGA",
+        "name": "Reinsurance Group of America, Incorporated",
+        "price": 176.55,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RGC",
+        "name": "Regencell Bioscience Holdings Limited",
+        "price": 6.54,
+        "exchange": "NASDAQ Capital Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "RGLD",
+        "name": "Royal Gold, Inc.",
+        "price": 105.65,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "RHI",
+        "name": "Robert Half International Inc.",
+        "price": 80.76,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RJF",
+        "name": "Raymond James Financial, Inc.",
+        "price": 120.07,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RKT",
+        "name": "Rocket Companies, Inc.",
+        "price": 12.87,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RL",
+        "name": "Ralph Lauren Corporation",
+        "price": 184.99,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RMD",
+        "name": "ResMed Inc.",
+        "price": 174.61,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RNR",
+        "name": "RenaissanceRe Holdings Ltd.",
+        "price": 223.35,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ROC",
+        "name": "ROC Energy Acquisition Corp.",
+        "price": 5.09,
+        "exchange": "NASDAQ Global Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ROK",
+        "name": "Rockwell Automation, Inc.",
+        "price": 289.05,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ROL",
+        "name": "Rollins, Inc.",
+        "price": 44,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ROP",
+        "name": "Roper Technologies, Inc.",
+        "price": 547.96,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ROST",
+        "name": "Ross Stores, Inc.",
+        "price": 149.63,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "RPM",
+        "name": "RPM International Inc.",
+        "price": 114.77,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RRC",
+        "name": "Range Resources Corporation",
+        "price": 32.14,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RRD",
+        "name": "R. R. Donnelley & Sons Company",
+        "price": 10.84,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RS",
+        "name": "Reliance Steel & Aluminum Co.",
+        "price": 320.18,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RSG",
+        "name": "Republic Services, Inc.",
+        "price": 183.64,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "RYN",
+        "name": "Rayonier Inc.",
+        "price": 34.5,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "S",
+        "name": "SentinelOne, Inc.",
+        "price": 27.9,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SAI",
+        "name": "SAI.TECH Global Corporation",
+        "price": 1.02,
+        "exchange": "NASDAQ Capital Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SATS",
+        "name": "EchoStar Corporation",
+        "price": 13.22,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SBAC",
+        "name": "SBA Communications Corporation",
+        "price": 208.29,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SBH",
+        "name": "Sally Beauty Holdings, Inc.",
+        "price": 12.64,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SBNY",
+        "name": "Signature Bank",
+        "price": 2,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SBUX",
+        "name": "Starbucks Corporation",
+        "price": 93.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SCCO",
+        "name": "Southern Copper Corporation",
+        "price": 80.66,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SCHW",
+        "name": "The Charles Schwab Corporation",
+        "price": 66.47,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SCI",
+        "name": "Service Corporation International",
+        "price": 72.73,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SD",
+        "name": "SandRidge Energy, Inc.",
+        "price": 13.01,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SE",
+        "name": "Sea Limited",
+        "price": 51.05,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SEE",
+        "name": "Sealed Air Corporation",
+        "price": 34.76,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SEIC",
+        "name": "SEI Investments Company",
+        "price": 67.83,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SFG",
+        "name": "188264",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "SHLD",
+        "name": "Victory Portfolios II - VictoryShares Protect America ETF",
+        "price": 31.26,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "etf"
+    },
+    {
+        "symbol": "SHW",
+        "name": "The Sherwin-Williams Company",
+        "price": 335.23,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SIG",
+        "name": "Signet Jewelers Limited",
+        "price": 101.57,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SIRI",
+        "name": "Sirius XM Holdings Inc.",
+        "price": 4.27,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SIRO",
+        "name": "Sirona Dental Systems, Inc.",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "SIVB",
+        "name": "SVB Financial Group",
+        "price": 106.04,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SJM",
+        "name": "The J. M. Smucker Company",
+        "price": 122.54,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SKT",
+        "name": "Tanger Factory Outlet Centers, Inc.",
+        "price": 28.94,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SLAB",
+        "name": "Silicon Laboratories Inc.",
+        "price": 141.64,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SLB",
+        "name": "Schlumberger Limited",
+        "price": 49.35,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SLG",
+        "name": "SL Green Realty Corp.",
+        "price": 48.49,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SLGN",
+        "name": "Silgan Holdings Inc.",
+        "price": 43.72,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SLH",
+        "name": "176800",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "SLM",
+        "name": "SLM Corporation",
+        "price": 20.7,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SM",
+        "name": "SM Energy Company",
+        "price": 44.5,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SMG",
+        "name": "The Scotts Miracle-Gro Company",
+        "price": 67.18,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SNA",
+        "name": "Snap-on Incorporated",
+        "price": 277.3,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SNDK",
+        "name": "4285541",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "SNPS",
+        "name": "Synopsys, Inc.",
+        "price": 591.35,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SNV",
+        "name": "Synovus Financial Corp.",
+        "price": 37.94,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SO",
+        "name": "The Southern Company",
+        "price": 66.86,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SON",
+        "name": "Sonoco Products Company",
+        "price": 56.71,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SPG",
+        "name": "Simon Property Group, Inc.",
+        "price": 150.44,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SPLK",
+        "name": "Splunk Inc.",
+        "price": 156.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SPLS",
+        "name": "4293173",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "SPR",
+        "name": "Spirit AeroSystems Holdings, Inc.",
+        "price": 32.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SRCL",
+        "name": "Stericycle, Inc.",
+        "price": 53.77,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SRE",
+        "name": "Sempra",
+        "price": 69.87,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "STJ",
+        "name": "2007840",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "STLD",
+        "name": "Steel Dynamics, Inc.",
+        "price": 133.71,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "STR",
+        "name": "Sitio Royalties Corp.",
+        "price": 23.15,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "STT",
+        "name": "State Street Corporation",
+        "price": 73.85,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "STZ",
+        "name": "Constellation Brands, Inc.",
+        "price": 250,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SWI",
+        "name": "SolarWinds Corporation",
+        "price": 12,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SWK",
+        "name": "Stanley Black & Decker, Inc.",
+        "price": 89.57,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "price": 106.44,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "SWN",
+        "name": "Southwestern Energy Company",
+        "price": 6.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SYK",
+        "name": "Stryker Corporation",
+        "price": 353.22,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "SYY",
+        "name": "Sysco Corporation",
+        "price": 79.96,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "T",
+        "name": "AT&T Inc.",
+        "price": 16.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TAP",
+        "name": "Molson Coors Beverage Company",
+        "price": 62.13,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TDC",
+        "name": "Teradata Corporation",
+        "price": 38.56,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TDG",
+        "name": "TransDigm Group Incorporated",
+        "price": 1183.27,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TDS",
+        "name": "Telephone and Data Systems, Inc.",
+        "price": 15.41,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TDW",
+        "name": "Tidewater Inc.",
+        "price": 80.09,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TE",
+        "name": "1053017",
+        "price": null,
+        "exchange": null,
+        "exchangeShortName": null,
+        "type": "trust"
+    },
+    {
+        "symbol": "TECH",
+        "name": "Bio-Techne Corporation",
+        "price": 74.38,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TER",
+        "name": "Teradyne, Inc.",
+        "price": 105.88,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TEX",
+        "name": "Terex Corporation",
+        "price": 56.69,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TFSL",
+        "name": "TFS Financial Corporation",
+        "price": 12.84,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TFX",
+        "name": "Teleflex Incorporated",
+        "price": 223,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TGI",
+        "name": "Triumph Group, Inc.",
+        "price": 14.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TGT",
+        "name": "Target Corporation",
+        "price": 155.29,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "THC",
+        "name": "Tenet Healthcare Corporation",
+        "price": 94.29,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "THG",
+        "name": "The Hanover Insurance Group, Inc.",
+        "price": 128.87,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "THO",
+        "name": "Thor Industries, Inc.",
+        "price": 129.03,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TJX",
+        "name": "The TJX Companies, Inc.",
+        "price": 98.51,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TK",
+        "name": "Teekay Corporation",
+        "price": 7.61,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TKR",
+        "name": "The Timken Company",
+        "price": 84.59,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TMO",
+        "name": "Thermo Fisher Scientific Inc.",
+        "price": 576.33,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TOL",
+        "name": "Toll Brothers, Inc.",
+        "price": 116.92,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TPX",
+        "name": "Tempur Sealy International, Inc.",
+        "price": 54.75,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TRI",
+        "name": "Thomson Reuters Corporation",
+        "price": 159.29,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TRIP",
+        "name": "Tripadvisor, Inc.",
+        "price": 27.16,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TRMB",
+        "name": "Trimble Inc.",
+        "price": 62.35,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TRN",
+        "name": "Trinity Industries, Inc.",
+        "price": 25.04,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TROW",
+        "name": "T. Rowe Price Group, Inc.",
+        "price": 113.48,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TRV",
+        "name": "The Travelers Companies, Inc.",
+        "price": 218.82,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TSCO",
+        "name": "Tractor Supply Company",
+        "price": 252.42,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": 202.64,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TSN",
+        "name": "Tyson Foods, Inc.",
+        "price": 53.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TTC",
+        "name": "The Toro Company",
+        "price": 92.05,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TUP",
+        "name": "Tupperware Brands Corporation",
+        "price": 1.31,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "TW",
+        "name": "Tradeweb Markets Inc.",
+        "price": 104.81,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TWX",
+        "name": "17007297",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "TXN",
+        "name": "Texas Instruments Incorporated",
+        "price": 171.05,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "TXT",
+        "name": "Textron Inc.",
+        "price": 88.68,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "UA",
+        "name": "Under Armour, Inc.",
+        "price": 8.5,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "UAL",
+        "name": "United Airlines Holdings, Inc.",
+        "price": 44.84,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "UDR",
+        "name": "UDR, Inc.",
+        "price": 35.94,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "UFS",
+        "name": "Domtar Corporation",
+        "price": 55.49,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "UGI",
+        "name": "UGI Corporation",
+        "price": 24.6,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "UHS",
+        "name": "Universal Health Services, Inc.",
+        "price": 171.12,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ULTA",
+        "name": "Ulta Beauty, Inc.",
+        "price": 549.98,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "UNH",
+        "name": "UnitedHealth Group Incorporated",
+        "price": 489.53,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "UNM",
+        "name": "Unum Group",
+        "price": 49.3,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "UNP",
+        "name": "Union Pacific Corporation",
+        "price": 252.98,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "UPS",
+        "name": "United Parcel Service, Inc.",
+        "price": 148.06,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "URBN",
+        "name": "Urban Outfitters, Inc.",
+        "price": 42.22,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "URI",
+        "name": "United Rentals, Inc.",
+        "price": 700.59,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "USB",
+        "name": "U.S. Bancorp",
+        "price": 41.42,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "USM",
+        "name": "United States Cellular Corporation",
+        "price": 36,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "UTHR",
+        "name": "United Therapeutics Corporation",
+        "price": 231.92,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "UTIW",
+        "name": "180175",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "V",
+        "name": "Visa Inc.",
+        "price": 283.16,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "VAL",
+        "name": "Valaris Limited",
+        "price": 65.68,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "VC",
+        "name": "Visteon Corporation",
+        "price": 112.48,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "VFC",
+        "name": "V.F. Corporation",
+        "price": 16.24,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "VLO",
+        "name": "Valero Energy Corporation",
+        "price": 143.28,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "VLY",
+        "name": "Valley National Bancorp",
+        "price": 8.02,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "VMC",
+        "name": "Vulcan Materials Company",
+        "price": 267.43,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "VMI",
+        "name": "Valmont Industries, Inc.",
+        "price": 211.03,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "VMW",
+        "name": "VMware, Inc.",
+        "price": 142.48,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "VNO",
+        "name": "Vornado Realty Trust",
+        "price": 26.53,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "VR",
+        "name": "Global X Metaverse ETF",
+        "price": 25.5513,
+        "exchange": "NASDAQ Global Market",
+        "exchangeShortName": "NASDAQ",
+        "type": "etf"
+    },
+    {
+        "symbol": "VRSK",
+        "name": "Verisk Analytics, Inc.",
+        "price": 241.65,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "VRSN",
+        "name": "VeriSign, Inc.",
+        "price": 195.23,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "VRTX",
+        "name": "Vertex Pharmaceuticals Incorporated",
+        "price": 432.76,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "VSH",
+        "name": "Vishay Intertechnology, Inc.",
+        "price": 22.49,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "VTR",
+        "name": "Ventas, Inc.",
+        "price": 44,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "VVC",
+        "name": "Vectren Corporation",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "VZ",
+        "name": "Verizon Communications Inc.",
+        "price": 40.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WAB",
+        "name": "Westinghouse Air Brake Technologies Corporation",
+        "price": 142.08,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WAFD",
+        "name": "Washington Federal, Inc.",
+        "price": 27.49,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "WAT",
+        "name": "Waters Corporation",
+        "price": 346.04,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WCC",
+        "name": "WESCO International, Inc.",
+        "price": 152.07,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WCN",
+        "name": "Waste Connections, Inc.",
+        "price": 165.4,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WDC",
+        "name": "Western Digital Corporation",
+        "price": 64.3,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "WEC",
+        "name": "WEC Energy Group, Inc.",
+        "price": 78.39,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WEN",
+        "name": "The Wendy's Company",
+        "price": 18.02,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "WFC",
+        "name": "Wells Fargo & Company",
+        "price": 55.06,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WFM",
+        "name": "Whole Foods Market, Inc.",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "WHR",
+        "name": "Whirlpool Corporation",
+        "price": 106.81,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WLK",
+        "name": "Westlake Corporation",
+        "price": 137.38,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WLL",
+        "name": "Oasis Petroleum Inc",
+        "price": 68.03,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WM",
+        "name": "Waste Management, Inc.",
+        "price": 205.79,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WMB",
+        "name": "The Williams Companies, Inc.",
+        "price": 36.4,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WMT",
+        "name": "Walmart Inc.",
+        "price": 58.76,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WOOF",
+        "name": "Petco Health and Wellness Company, Inc.",
+        "price": 2.6,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "WR",
+        "name": "423940",
+        "price": null,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "WRB",
+        "name": "W. R. Berkley Corporation",
+        "price": 82.69,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WRI",
+        "name": "Weingarten Realty Investors",
+        "price": 31.44,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "trust"
+    },
+    {
+        "symbol": "WSM",
+        "name": "Williams-Sonoma, Inc.",
+        "price": 236.64,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WTM",
+        "name": "White Mountains Insurance Group, Ltd.",
+        "price": 1740.2,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WTW",
+        "name": "Willis Towers Watson Public Limited Company",
+        "price": 271.18,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "WU",
+        "name": "The Western Union Company",
+        "price": 13.49,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WY",
+        "name": "Weyerhaeuser Company",
+        "price": 34.91,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "WYNN",
+        "name": "Wynn Resorts, Limited",
+        "price": 101.21,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "X",
+        "name": "United States Steel Corporation",
+        "price": 47.4,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "XEL",
+        "name": "Xcel Energy Inc.",
+        "price": 49.57,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "XL",
+        "name": "XL Fleet Corp.",
+        "price": 1.14,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "XLNX",
+        "name": "Xilinx, Inc.",
+        "price": 194.92,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "XOM",
+        "name": "Exxon Mobil Corporation",
+        "price": 105.84,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "XRAY",
+        "name": "DENTSPLY SIRONA Inc.",
+        "price": 33.27,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "XRX",
+        "name": "Xerox Holdings Corporation",
+        "price": 19.29,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "XYL",
+        "name": "Xylem Inc.",
+        "price": 127.94,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "Y",
+        "name": "Alleghany Corporation",
+        "price": 847.79,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "YHOO",
+        "name": "20318540",
+        "price": null,
+        "exchange": "NASDAQ",
+        "exchangeShortName": "NASDAQ",
+        "type": "trust"
+    },
+    {
+        "symbol": "YUM",
+        "name": "Yum! Brands, Inc.",
+        "price": 137.42,
+        "exchange": "New York Stock Exchange",
+        "exchangeShortName": "NYSE",
+        "type": "stock"
+    },
+    {
+        "symbol": "ZBRA",
+        "name": "Zebra Technologies Corporation",
+        "price": 289.64,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ZION",
+        "name": "Zions Bancorporation, National Association",
+        "price": 38.77,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    },
+    {
+        "symbol": "ZNGA",
+        "name": "Zynga Inc.",
+        "price": 8.18,
+        "exchange": "NASDAQ Global Select",
+        "exchangeShortName": "NASDAQ",
+        "type": "stock"
+    }
+]
