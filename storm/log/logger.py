@@ -1,105 +1,87 @@
 import logging
-import sys
-from colorama import Fore, Style, init as colours_on
 from accelerate import Accelerator
 
-colours_on(autoreset=True)
+from storm.utils import is_main_process
+from storm.utils import Singleton
 
-from storm.utils import get_cpu_usage, get_cpu_memory_usage, get_gpu_usage, get_gpu_memory_usage, is_main_process
+__all__ = ['Logger', 'logger']
 
-def warning(message):
-    if is_main_process():
-        colours_on()
-        print(Fore.RED + f' >>> WARNING: {message} ' + Style.RESET_ALL)
+class Logger(logging.Logger, metaclass=Singleton):
+    def __init__(self,
+                 name='logger',
+                 level=logging.INFO):
+        # Initialize the parent class
+        super().__init__(name, level)
 
-class Formatter(logging.Formatter):
-    def format(self, record):
-        cpu_usage = get_cpu_usage()
-        cpu_memory_usage = get_cpu_memory_usage()
-        gpu_usage = get_gpu_usage()
-        gpu_memory_usage = get_gpu_memory_usage()
+        # Define a formatter for log messages
+        self.formatter = logging.Formatter(
+            fmt='\033[92m%(asctime)s - %(name)s:%(levelname)s\033[0m: %(filename)s:%(lineno)s - %(message)s',
+            datefmt='%Y-%m-%d %H:%M:%S',
+        )
 
-        record.cpu_usage = "{:.2f}".format(cpu_usage)
-        record.cpu_memory_usage = "{:.2f}".format(cpu_memory_usage)
-        record.gpu_usage = "{:.2f}".format(gpu_usage)
-        record.gpu_memory_usage = "{:.2f}".format(gpu_memory_usage)
+        self.is_main_process = True  # Default to True; will be updated in `init_logger`
 
-        record.msg = str(record.msg)
+    def init_logger(self,
+                    log_path: str,
+                    level=logging.INFO,
+                    accelerator: Accelerator = None):
+        """
+        Initialize the logger with a file path and optional main process check.
 
-        return super().format(record)
+        Args:
+            log_path (str): The log file path.
+            level (int, optional): The logging level. Defaults to logging.INFO.
+            accelerator (Accelerator, optional): Accelerator instance to determine the main process.
+        """
 
-class ColorFormatter(Formatter):
-    COLORS = {
-        "WARNING": Fore.YELLOW,
-        "ERROR": Fore.RED,
-        "DEBUG": Fore.GREEN,
-        "INFO": Fore.WHITE,
-        "CRITICAL": Fore.RED + Style.BRIGHT
-    }
-
-    def format(self, record):
-        color = self.COLORS.get(record.levelname, "")
-        message = color + str(record.msg) + Style.RESET_ALL
-        record_copy = logging.makeLogRecord(record.__dict__)
-        record_copy.msg = message
-        return super().format(record_copy)
-
-class Logger():
-    def __init__(self, log_path, accelerator: Accelerator = None):
-
-        self.accelerator = accelerator
-
-        if self.accelerator is None:
+        # Determine if this is the main process
+        if accelerator is None:
             self.is_main_process = is_main_process()
         else:
-            self.is_main_process = self.accelerator.is_local_main_process
-
-        self.logger = logging.getLogger("Logger")
-        self.logger.setLevel(logging.DEBUG)
-
-        formatter = Formatter('%(asctime)s '
-                              '- cpu: %(cpu_usage)s%% '
-                              '- cpum: %(cpu_memory_usage)s%% '
-                              '- gpu: %(gpu_usage)s%% '
-                              '- gpum: %(gpu_memory_usage)s%% '
-                              '- %(levelname)s '
-                              '- %(message)s')
-        color_formatter = ColorFormatter('%(asctime)s '
-                                         '- cpu: %(cpu_usage)s%% '
-                                         '- cpum: %(cpu_memory_usage)s%% '
-                                         '- gpu: %(gpu_usage)s%% '
-                                         '- gpum: %(gpu_memory_usage)s%% '
-                                         '- %(levelname)s '
-                                         '- %(message)s')
+            self.is_main_process = accelerator.is_local_main_process
 
         if self.is_main_process:
-            console_handler = logging.StreamHandler(sys.stdout)
-            console_handler.setFormatter(color_formatter)
-            self.logger.addHandler(console_handler)
+            # Add a console handler for logging to the console
+            console_handler = logging.StreamHandler()
+            console_handler.setLevel(level)
+            console_handler.setFormatter(self.formatter)
+            self.addHandler(console_handler)
 
-            if log_path:
-                file_handler = logging.FileHandler(log_path)
-                file_handler.setFormatter(formatter)
-                self.logger.addHandler(file_handler)
-        else:
-            self.logger.addHandler(logging.NullHandler())
+            # Add a file handler for logging to the file
+            file_handler = logging.FileHandler(log_path, mode='a')  # 'a' mode appends to the file
+            file_handler.setLevel(level)
+            file_handler.setFormatter(self.formatter)
+            self.addHandler(file_handler)
 
-    def debug(self, message):
+        # Prevent duplicate logs from propagating to the root logger
+        self.propagate = False
+
+    def info(self, msg, *args, **kwargs):
+        """
+        Overridden info method with stacklevel adjustment for correct log location.
+        """
         if self.is_main_process:
-            self.logger.debug(message)
+            kwargs.setdefault("stacklevel", 2)  # Adjust stack level to show the actual caller
+            super().info(msg, *args, **kwargs)
 
-    def info(self, message):
+    def warning(self, msg, *args, **kwargs):
         if self.is_main_process:
-            self.logger.info(message)
+            kwargs.setdefault("stacklevel", 2)
+            super().warning(msg, *args, **kwargs)
 
-    def warning(self, message):
+    def error(self, msg, *args, **kwargs):
         if self.is_main_process:
-            self.logger.warning(message)
+            kwargs.setdefault("stacklevel", 2)
+            super().error(msg, *args, **kwargs)
 
-    def error(self, message):
+    def critical(self, msg, *args, **kwargs):
         if self.is_main_process:
-            self.logger.error(message)
+            kwargs.setdefault("stacklevel", 2)
+            super().critical(msg, *args, **kwargs)
 
-    def critical(self, message):
+    def debug(self, msg, *args, **kwargs):
         if self.is_main_process:
-            self.logger.critical(message)
+            kwargs.setdefault("stacklevel", 2)
+            super().debug(msg, *args, **kwargs)
+
+logger = Logger()

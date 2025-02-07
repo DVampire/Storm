@@ -17,6 +17,7 @@ from storm.models import get_patch_info, patchify
 from storm.utils import convert_int_to_timestamp
 from storm.utils import save_joblib
 from storm.utils import save_json
+from storm.utils import Records
 
 @TRAINER.register_module(force=True)
 class DynamicSingleVQVAETrainer():
@@ -45,6 +46,7 @@ class DynamicSingleVQVAETrainer():
                  plot: Any = None,
                  accelerator: Any = None,
                  print_freq: int = 20,
+                 train_gather_multi_gpu: bool = False,
                  **kwargs):
 
         self.config = config
@@ -79,6 +81,7 @@ class DynamicSingleVQVAETrainer():
         self.plot = plot
         self.accelerator = accelerator
         self.print_freq = print_freq
+        self.train_gather_multi_gpu = train_gather_multi_gpu
 
         self.downstream = DOWNSTREAM.build(self.config.downstream)
 
@@ -222,17 +225,6 @@ class DynamicSingleVQVAETrainer():
 
             self.check_batch_info_flag = False
 
-    def update_records_value(self, records: Dict, update_value: Dict):
-        if self.is_main_process:
-            records.update(update_value)
-        return records
-
-    def update_records_list(self, records: Dict, update_value: Dict):
-        if self.is_main_process:
-            for key, value in update_value.items():
-                records.setdefault(key, []).append(value)
-        return records
-
     def run_step(self,
                  epoch,
                  if_use_writer = True,
@@ -245,7 +237,7 @@ class DynamicSingleVQVAETrainer():
 
         if_train = mode == "train"
 
-        records = dict()
+        records = Records(accelerator=self.accelerator)
         metric_logger = MetricLogger(delimiter="  ")
 
         if if_train:
@@ -375,11 +367,11 @@ class DynamicSingleVQVAETrainer():
                      weighted_codebook_diversity_loss +
                      weighted_orthogonal_reg_loss)
 
-            records = self.update_records_value(records, {
-                "weighted_quantized_loss": self.accelerator.gather(weighted_quantized_loss).mean().item(),
-                "weighted_commit_loss": self.accelerator.gather(weighted_commit_loss).mean().item(),
-                "weighted_codebook_diversity_loss": self.accelerator.gather(weighted_codebook_diversity_loss).mean().item(),
-                "weighted_orthogonal_reg_loss": self.accelerator.gather(weighted_orthogonal_reg_loss).mean().item(),
+            records.update({
+                "weighted_quantized_loss": weighted_quantized_loss,
+                "weighted_commit_loss": weighted_commit_loss,
+                "weighted_codebook_diversity_loss": weighted_codebook_diversity_loss,
+                "weighted_orthogonal_reg_loss": weighted_orthogonal_reg_loss
             })
 
             mask = output["mask"]
@@ -402,10 +394,10 @@ class DynamicSingleVQVAETrainer():
                 weighted_kl_loss = loss_dict["weighted_kl_loss"]
                 weighted_ret_loss = loss_dict["weighted_ret_loss"]
 
-                records = self.update_records_value(records, {
-                    "weighted_nll_loss": self.accelerator.gather(weighted_nll_loss).mean().item(),
-                    "weighted_kl_loss": self.accelerator.gather(weighted_kl_loss).mean().item(),
-                    "weighted_ret_loss": self.accelerator.gather(weighted_ret_loss).mean().item(),
+                records.update({
+                    "weighted_nll_loss": weighted_nll_loss,
+                    "weighted_kl_loss": weighted_kl_loss,
+                    "weighted_ret_loss": weighted_ret_loss
                 })
 
                 loss += weighted_nll_loss + weighted_kl_loss + weighted_ret_loss
@@ -414,63 +406,57 @@ class DynamicSingleVQVAETrainer():
                 loss_dict = self.price_cont_loss_fn(prices=restored_pred_prices.squeeze(1))
                 weighted_cont_loss = loss_dict["weighted_cont_loss"]
 
-                records = self.update_records_value(records, {
-                    "weighted_cont_loss": self.accelerator.gather(weighted_cont_loss).mean().item(),
+                records.update({
+                    "weighted_cont_loss": weighted_cont_loss
                 })
 
                 loss += weighted_cont_loss
 
-            records = self.update_records_value(records, {
-                "loss": self.accelerator.gather(loss).mean().item()
+            records.update({
+                "loss": loss
             })
 
-            # if main process, compute metrics
-            if self.is_main_process:
-                # Compute metrics
-                restored_pred_prices = patchify(restored_pred_prices, patch_info=patch_info)
-                restored_target_prices = patchify(restored_target_prices, patch_info=patch_info)
-                restored_pred_prices = restored_pred_prices.detach()
-                restored_target_prices = restored_target_prices.detach()
+            # Compute metrics
+            restored_pred_prices = patchify(restored_pred_prices, patch_info=patch_info)
+            restored_target_prices = patchify(restored_target_prices, patch_info=patch_info)
+            restored_pred_prices = restored_pred_prices.detach()
+            restored_target_prices = restored_target_prices.detach()
 
-                if if_mask and if_mask:
-                    mask = mask.detach()
-                    mask = mask.repeat(1, 1, prices.shape[-1])
-                    mask_target_prices = restored_target_prices * mask
-                    mask_pred_prices = restored_pred_prices * mask
-                    nomask_target_prices = restored_target_prices * (1.0 - mask)
-                    nomask_pred_prices = restored_pred_prices * (1.0 - mask)
+            if if_mask and if_mask:
+                mask = mask.detach()
+                mask = mask.repeat(1, 1, prices.shape[-1])
+                mask_target_prices = restored_target_prices * mask
+                mask_pred_prices = restored_pred_prices * mask
+                nomask_target_prices = restored_target_prices * (1.0 - mask)
+                nomask_pred_prices = restored_pred_prices * (1.0 - mask)
 
-                    mask_mse = MSE(mask_target_prices, mask_pred_prices)
-                    nomask_mse = MSE(nomask_target_prices, nomask_pred_prices)
-                    mse = MSE(restored_target_prices, restored_pred_prices)
+                mask_mse = MSE(mask_target_prices, mask_pred_prices)
+                nomask_mse = MSE(nomask_target_prices, nomask_pred_prices)
+                mse = MSE(restored_target_prices, restored_pred_prices)
 
-                    records = self.update_records_value(records, {
-                        "mask_mse": self.accelerator.gather(mask_mse).mean().item(),
-                        "nomask_mse": self.accelerator.gather(nomask_mse).mean().item(),
-                        "mse": self.accelerator.gather(mse).mean().item(),
-                    })
-
-                else:
-                    mse = MSE(restored_target_prices, restored_pred_prices)
-
-                    records = self.update_records_value(records, {
-                        "mse": self.accelerator.gather(mse).mean().item(),
-                    })
-
-                pred_label = self.accelerator.gather(pred_label.detach()).cpu().numpy()
-                labels = self.accelerator.gather(labels.detach()).cpu().numpy()
-
-                rankic = RankIC(pred_label, labels)
-                records = self.update_records_value(records, {
-                    "rankic": rankic,
-                })
-                rankics.append(rankic)
-
-                rankicir = RankICIR(rankics)
-                records = self.update_records_value(records, {
-                    "rankicir": rankicir,
+                records.update({
+                    "mask_mse": mask_mse,
+                    "nomask_mse": nomask_mse,
+                    "mse": mse
                 })
 
+            else:
+                mse = MSE(restored_target_prices, restored_pred_prices)
+
+                records.update({
+                    "mse": mse
+                })
+
+            # pred_label = pred_label.detach()
+            # labels = labels.detach()
+            #
+            # rankic = RankIC(pred_label, labels)
+            # rankics.append(rankic)
+            #
+            # rankicir = RankICIR(rankics)
+            #
+            # records.update(data = {"RANKIC":rankic, "RANKICIR": rankicir },
+            #                extra_info={"pred_label": pred_label,"true_label": labels})
 
             if if_train:
                 self.optimizer.zero_grad()
@@ -481,9 +467,11 @@ class DynamicSingleVQVAETrainer():
                     self.scheduler.step()
 
                 lr = self.optimizer.param_groups[0]["lr"]
-                records = self.update_records_value(records, {
-                    "lr": lr
-                })
+                records.update_value({"lr": lr})
+
+            # gather data from multi gpu
+            records.gather(self.train_gather_multi_gpu)
+            gathered_item = records.gathered_item
 
             global_step += 1
 
@@ -492,7 +480,7 @@ class DynamicSingleVQVAETrainer():
 
                 wandb_dict = {}
                 # For records
-                for key, value in records.items():
+                for key, value in gathered_item.items():
                     if if_use_writer and self.writer:
                         self.writer.log_scalar(f"{prefix}/{key}", value, global_step)
                     if if_use_wandb and self.wandb:
@@ -500,7 +488,7 @@ class DynamicSingleVQVAETrainer():
 
                 self.wandb.log(wandb_dict)
 
-            metric_logger.update(**records)
+            metric_logger.update(**gathered_item)
             metric_logger.synchronize_between_processes()
 
         if if_use_writer and self.is_main_process:
@@ -532,8 +520,7 @@ class DynamicSingleVQVAETrainer():
 
         self.check_batch_info_flag = True if epoch == self.start_epoch else False
 
-        records = dict()
-        extra_records = dict()
+        records = Records(accelerator=self.accelerator)
 
         metric_logger = MetricLogger(delimiter="  ")
         self.model.eval()
@@ -553,6 +540,7 @@ class DynamicSingleVQVAETrainer():
             num_plot_sample_batch = int(self.num_plot_samples // self.plot.sample_num)
             sample_batchs = random.sample(range(len(dataloader)), num_plot_sample_batch)
 
+        rankics = []
         for data_iter_step, batch in enumerate(metric_logger.log_every(dataloader,
                                                                        self.logger,
                                                                        self.print_freq,
@@ -644,41 +632,40 @@ class DynamicSingleVQVAETrainer():
 
             mse = MSE(restored_target_prices, restored_pred_prices)
 
-            records = self.update_records_list(records, {
-                "MSE": self.accelerator.gather(mse).mean().item(),
+            records.update({
+                "MSE": mse
             })
 
-            pred_label = self.accelerator.gather(pred_label.detach()).cpu().numpy()
-            labels = self.accelerator.gather(labels.detach()).cpu().numpy()
-            end_timestamp = self.accelerator.gather(end_timestamp.detach()).cpu().numpy()
+            pred_label = pred_label.detach()
+            labels = labels.detach()
+            end_timestamp = end_timestamp.detach()
 
             rankic = RankIC(pred_label, labels)
-            records = self.update_records_list(records, {
-                "RANKIC": rankic,
-            })
+            rankics.append(rankic)
 
-            pred_label = self.accelerator.gather(pred_label.detach()).cpu().numpy()
-            labels = self.accelerator.gather(labels.detach()).cpu().numpy()
-            end_timestamp = self.accelerator.gather(end_timestamp.detach()).cpu().numpy()
+            rankicir = RankICIR(rankics)
 
-            extra_records = self.update_records_list(extra_records, {
-                "end_timestamp": end_timestamp,
-                "pred_label": pred_label,
-                "true_label": labels
-            })
+            records.update(data={"RANKIC": rankic, "RANKICIR": rankicir},
+                           extra_info={"end_timestamp": end_timestamp,
+                                       "pred_label": pred_label, "true_label": labels})
+
+        # gather data from multi gpu
+        records.gather()
+        gathered_item = records.gathered_item
+        combiner = records.combiner
+        extra_combiner = records.extra_combiner
 
         # Process records
         metrics = dict()
-        for key, values in records.items():
+        for key, values in combiner.items():
             metrics[key] = np.mean(values)
-        if self.is_main_process:
-            metrics["RANKICIR"] = RankICIR(records["RANKIC"])
+        metrics["RANKICIR"] = gathered_item["RANKICIR"]
 
         # Process extra records
         if self.is_main_process:
-            end_timestamps = extra_records["end_timestamp"]
-            pred_labels = extra_records["pred_label"]
-            true_labels = extra_records["true_label"]
+            end_timestamps = extra_combiner["end_timestamp"]
+            pred_labels = extra_combiner["pred_label"]
+            true_labels = extra_combiner["true_label"]
 
             end_timestamps = np.concatenate(end_timestamps, axis=0)
             pred_labels = np.concatenate(pred_labels, axis=0)
@@ -736,8 +723,7 @@ class DynamicSingleVQVAETrainer():
 
         self.check_batch_info_flag = True if epoch == self.start_epoch else False
 
-        records = dict()
-        extra_records = dict()
+        records = Records(accelerator=self.accelerator)
 
         metric_logger = MetricLogger(delimiter="  ")
         self.model.eval()
@@ -803,21 +789,27 @@ class DynamicSingleVQVAETrainer():
             factors = output["factors"]
             embed_ind = output["embed_ind"]
 
-            factors = self.accelerator.gather(factors).cpu().numpy()
-            embed_ind = self.accelerator.gather(embed_ind).cpu().numpy()
+            factors = factors.detach()
+            embed_ind = embed_ind.detach()
 
-            end_timestamp = self.accelerator.gather(end_timestamp).cpu().numpy()
+            end_timestamp = end_timestamp.detach()
 
-            extra_records = self.update_records_list(extra_records, {
+            records.update(extra_info = {
                 "factors": factors,
                 "embed_ind": embed_ind,
                 "end_timestamps": end_timestamp,
             })
+
+            # gather data from multi gpu
+            records.gather(train_gather_multi_gpu = True)
+
+        extra_combiner = records.extra_combiner
+
         # Process extra records
         if self.is_main_process:
-            end_timestamps = extra_records["end_timestamps"]
-            factors = extra_records["factors"]
-            embed_ind = extra_records["embed_ind"]
+            end_timestamps = extra_combiner["end_timestamps"]
+            factors = extra_combiner["factors"]
+            embed_ind = extra_combiner["embed_ind"]
 
             end_timestamps = np.concatenate(end_timestamps, axis=0)
             factors = np.concatenate(factors, axis=0)
@@ -843,6 +835,8 @@ class DynamicSingleVQVAETrainer():
                 "nums": len(end_timestamps),
             }
 
+            print(meta)
+
             items = {}
             for end_timestamp, factor in zip(end_timestamps, factors):
                 items[end_timestamp] = {
@@ -863,8 +857,6 @@ class DynamicSingleVQVAETrainer():
             if self.is_main_process:
                 save_joblib(info, os.path.join(self.exp_path, f"state.joblib"))
                 save_json(count, os.path.join(self.exp_path, f"count.json"))
-
-        return records
 
     def train(self):
         self.logger.info("| Start training and evaluating VAE...")
@@ -952,9 +944,7 @@ class DynamicSingleVQVAETrainer():
 
         log_stats = {"epoch": epoch}
 
-        state_stats = self.run_state(epoch)
-
-        log_stats.update({f"state_{k}": v for k, v in state_stats.items()})
+        self.run_state(epoch)
 
         if self.is_main_process:
             with open(os.path.join(self.exp_path, "state_log.txt"), "w", ) as f:

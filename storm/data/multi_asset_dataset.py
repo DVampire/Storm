@@ -17,7 +17,7 @@ from storm.utils import assemble_project_path
 from storm.data.collate_fn import MultiAssetPriceTextCollateFn
 
 @DATASET.register_module(force=True)
-class MultiAssetPriceTextDataset(Dataset):
+class MultiAssetDataset(Dataset):
 
     def __init__(self,
                  *args,
@@ -54,7 +54,7 @@ class MultiAssetPriceTextDataset(Dataset):
         self.if_norm = if_norm
         self.if_norm_temporal = if_norm_temporal
         self.if_use_temporal = if_use_temporal
-        self.if_use_feature = if_use_future
+        self.if_use_future = if_use_future
 
         exp_path = assemble_project_path(exp_path)
         self.scaler_path = os.path.join(exp_path, scaler_file)
@@ -81,13 +81,14 @@ class MultiAssetPriceTextDataset(Dataset):
             self.features = scaled_data["features"]
             self.labels = scaled_data["labels"]
             self.prices = scaled_data["prices"]
+            self.original_prices = scaled_data["original_prices"]
             self.prices_mean = scaled_data["prices_mean"]
             self.prices_std = scaled_data["prices_std"]
             self.data_info = scaled_data["data_info"]
         else:
             self.assets = self._init_assets()
             self.assets_df = self._load_assets_df()
-            self.features, self.labels, self.prices, self.scalers, self.prices_mean, self.prices_std = self._init_features()
+            self.features, self.labels, self.prices, self.original_prices, self.scalers, self.prices_mean, self.prices_std = self._init_features()
             save_joblib(self.scalers, self.scaler_path)
             self.data_info = self._init_data_info()
 
@@ -97,6 +98,7 @@ class MultiAssetPriceTextDataset(Dataset):
                 "features": self.features,
                 "labels": self.labels,
                 "prices": self.prices,
+                "original_prices": self.original_prices,
                 "prices_mean": self.prices_mean,
                 "prices_std": self.prices_std,
                 "data_info": self.data_info,
@@ -105,9 +107,17 @@ class MultiAssetPriceTextDataset(Dataset):
             save_joblib(scaled_data, self.scaled_data_path)
 
     def _init_assets(self):
+
         assets = load_json(self.assets_path)
-        assets = [asset["symbol"] for asset in assets]
-        return assets
+        if isinstance(assets, dict):
+            asset_symbols = list(assets.keys())
+        elif isinstance(assets, list):
+            asset_symbols = [asset["symbol"] for asset in assets]
+        else:
+            raise ValueError("Unsupported assets format. Expected a dict or a list of dicts.")
+        
+        return asset_symbols
+
 
     def _load_assets_df(self):
         start_timestamp = pd.to_datetime(self.start_timestamp, format=self.timestamp_format) if self.start_timestamp else None
@@ -135,8 +145,9 @@ class MultiAssetPriceTextDataset(Dataset):
 
         features = {}
         labels = {}
-        prices = {}
         scalers = {}
+        prices = {} # scaled prices
+        original_prices = {} # original prices
         prices_mean = {}
         prices_std = {}
 
@@ -145,6 +156,7 @@ class MultiAssetPriceTextDataset(Dataset):
             asset_df = self.assets_df[asset]
 
             price_indices = [self.features_name.index(price_name) for price_name in self.prices_name]
+            original_prices[asset] = asset_df[self.prices_name]
 
             if self.if_norm:
                 if self.scalers is None or asset not in self.scalers:
@@ -181,17 +193,20 @@ class MultiAssetPriceTextDataset(Dataset):
             prices[asset] = asset_df[self.prices_name]
             labels[asset] = asset_df[self.labels_name]
 
-        return features, labels, prices, scalers, prices_mean, prices_std
+        return features, labels, prices, original_prices, scalers, prices_mean, prices_std
 
     def _init_data_info(self):
         data_info = {}
         count = 0
 
         first_asset = self.assets_df[self.assets[0]]
-        for i in range(self.history_timestamps, len(first_asset) - self.future_timestamps):
-            history_df = first_asset.iloc[i - self.history_timestamps: i]
-            future_df = first_asset.iloc[i: i + self.future_timestamps]
 
+        future_timestamps = self.future_timestamps if self.if_use_future else 0
+
+        for i in range(self.history_timestamps, len(first_asset) - future_timestamps):
+            data_info[count] = {}
+
+            history_df = first_asset.iloc[i - self.history_timestamps: i]
             history_info = {
                 "start_timestamp": history_df.index[0],
                 "end_timestamp": history_df.index[-1],
@@ -199,24 +214,30 @@ class MultiAssetPriceTextDataset(Dataset):
                 "end_index": i - 1,
             }
 
-            future_info = {
-                "start_timestamp": future_df.index[0],
-                "end_timestamp": future_df.index[-1],
-                "start_index": i,
-                "end_index": i + self.future_timestamps - 1,
-            }
+            data_info[count].update(
+                {"history_info": history_info}
+            )
 
-            data_info[count] = {
-                "history_info": history_info,
-                "future_info": future_info,
-            }
+            if self.if_use_future:
+
+                future_df = first_asset.iloc[i: i + self.future_timestamps]
+                future_info = {
+                    "start_timestamp": future_df.index[0],
+                    "end_timestamp": future_df.index[-1],
+                    "start_index": i,
+                    "end_index": i + self.future_timestamps - 1,
+                }
+
+                data_info[count].update(
+                    {"future_info": future_info}
+                )
 
             count += 1
 
         return data_info
 
     def __str__(self):
-        str = f"{'-' * 50} MultiAssetPriceTextDataset {'-' * 50}\n"
+        str = f"{'-' * 50} MultiAssetDataset {'-' * 50}\n"
         for asset in self.assets:
             str += f"asset: {asset}\n"
             str += f"features shape: {self.features[asset].shape}\n"
@@ -231,7 +252,7 @@ class MultiAssetPriceTextDataset(Dataset):
             str += "\n"
 
         str += f"total data info: {len(self.data_info)}\n"
-        str += f"{'-' * 50} MultiAssetPriceTextDataset {'-' * 50}\n"
+        str += f"{'-' * 50} MultiAssetDataset {'-' * 50}\n"
         return str
 
 
@@ -253,6 +274,8 @@ class MultiAssetPriceTextDataset(Dataset):
                                                            history_info["end_timestamp"]].values.astype("float32") for asset in self.assets]),
             "labels": np.stack([self.labels[asset].loc[history_info["start_timestamp"]:
                                                        history_info["end_timestamp"]].values.astype("float32") for asset in self.assets]),
+            "original_prices": np.stack([self.original_prices[asset].loc[history_info["start_timestamp"]:
+                                                       history_info["end_timestamp"]].values.astype("float32") for asset in self.assets]),
             "prices": np.stack([self.prices[asset].loc[history_info["start_timestamp"]:
                                                        history_info["end_timestamp"]].values.astype("float32") for asset in self.assets]),
             "timestamps": np.stack([self.features[asset].loc[history_info["start_timestamp"]:
@@ -269,7 +292,7 @@ class MultiAssetPriceTextDataset(Dataset):
             "history": history_data,
         }
 
-        if self.if_use_feature:
+        if self.if_use_future:
 
             future_info = item["future_info"]
             future_data = {
@@ -283,6 +306,8 @@ class MultiAssetPriceTextDataset(Dataset):
                                                              future_info["end_timestamp"]].values.astype("float32") for asset in self.assets]),
                 "prices": np.stack([self.prices[asset].loc[future_info["start_timestamp"]:
                                                            future_info["end_timestamp"]].values.astype("float32") for asset in self.assets]),
+                "original_prices": np.stack([self.original_prices[asset].loc[future_info["start_timestamp"]:
+                                                              future_info["end_timestamp"]].values.astype("float32") for asset in self.assets]),
                 "timestamps": np.stack([self.features[asset].loc[future_info["start_timestamp"]:
                                                                  future_info["end_timestamp"]].reset_index(drop=False)["timestamp"].apply(lambda x: convert_timestamp_to_int(x)).values.astype("float32") for asset in self.assets]),
                 "prices_mean": np.stack([self.prices_mean[asset][future_info["start_index"]:
@@ -299,13 +324,13 @@ class MultiAssetPriceTextDataset(Dataset):
         return res
 
 __all__ = [
-    "MultiAssetPriceTextDataset"
+    "MultiAssetDataset"
 ]
 
 if __name__ == '__main__':
 
     dataset = dict(
-        type="MultiAssetPriceTextDataset",
+        type="MultiAssetDataset",
         data_path="datasets/processd_day_dj30/features",
         assets_path="configs/_asset_list_/dj30.json",
         fields_name={
@@ -498,10 +523,11 @@ if __name__ == '__main__':
     collate_fn = MultiAssetPriceTextCollateFn()
     dataloader = DataLoader(dataset, batch_size=4, shuffle=False, num_workers=0, collate_fn=collate_fn)
     item = next(iter(dataloader))
+
     print(item)
     print(item["history"]["features"].shape)
     print(item["history"]["labels"].shape)
     print(item["history"]["prices"].shape)
+    print(item["history"]["original_prices"].shape)
     print(item["history"]["prices_mean"].shape)
     print(item["history"]["prices_std"].shape)
-

@@ -86903,14 +86903,7 @@
         "exchangeShortName": "NASDAQ",
         "type": "etf"
     },
-    {
-        "symbol": "TSLA",
-        "name": "Tesla, Inc.",
-        "price": 202.64,
-        "exchange": "NASDAQ Global Select",
-        "exchangeShortName": "NASDAQ",
-        "type": "stock"
-    },
+    ,,
     {
         "symbol": "TSLLF",
         "name": "Tassal Group Limited",

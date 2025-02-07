@@ -54,12 +54,10 @@ class PatchEmbed(nn.Module):
         else:
             kernel_size = patch_size
 
-        self.proj = nn.Conv3d(
-            in_channels=self.input_channel, out_channels = embed_dim, kernel_size=kernel_size, stride=kernel_size
-        )
+        self.proj = nn.Conv3d(in_channels=self.input_channel, out_channels = embed_dim, kernel_size=kernel_size, stride=kernel_size)
 
         for m in self.modules():
-            if isinstance(m, nn.Conv2d):
+            if isinstance(m, nn.Conv3d):
                 w = m.weight.data
                 torch.nn.init.xavier_uniform_(w.view([w.shape[0], -1]))
 

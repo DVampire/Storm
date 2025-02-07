@@ -5,3 +5,10 @@ from .dual_vqvae_trainer import DualVQVAETrainer
 from .single_vqvae_trainer import SingleVQVAETrainer
 from .dynamic_dual_vqvae_trainer import DynamicDualVQVAETrainer
 from .dynamic_single_vqvae_trainer import DynamicSingleVQVAETrainer
+from .ppo_trainer import PPOTrainer
+from .offline_ppo_trainer import OfflinePPOTrainer
+from .dpo_trainer import DPOTrainer
+from .sac_trainer import SACTrainer
+from .bcq_gpt_trainer import BCQGPTTrainer
+from .bcq_trainer import BCQTrainer
+from .cql_trainer import CQLTrainer

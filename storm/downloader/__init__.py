@@ -1,5 +1,5 @@
-from .prices import FMPDayPriceDownloader
+from storm.downloader.downloader import Downloader
 
 __all__ = [
-    "FMPDayPriceDownloader",
+    "Downloader",
 ]

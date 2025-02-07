@@ -1,33 +1,37 @@
 import os
-import joblib
-import pandas as pd
-import numpy as np
-from copy import deepcopy
-from pandas import DataFrame
-from typing import List, Tuple
 from concurrent.futures import ThreadPoolExecutor
+from copy import deepcopy
+from typing import List, Tuple, Optional
 
-from storm.utils import assemble_project_path
+import joblib
+import numpy as np
+import pandas as pd
+from pandas import DataFrame
+
 from storm.registry import SCALER
+from storm.utils.file_utils import assemble_project_path
 
 EPS = 1e-12
 
-class BaseScaler():
-    def __init__(self,
-                 mean: np.ndarray = None,
-                 std: np.ndarray = None,
-                 ):
+
+class BaseScaler:
+    def __init__(
+        self,
+        mean: Optional[np.ndarray] = None,
+        std: Optional[np.ndarray] = None,
+    ):
         self.mean = mean
         self.std = std
 
     def _prepared_mean_std(self,
-                           start_index: int = None,
-                           end_index: int = None):
-
-        if ((start_index is not None and end_index is not None)
-                and (len(self.mean.shape) != 1 and len(self.std.shape) != 1)):
-            mean = self.mean[start_index: end_index + 1, ...]
-            std = self.std[start_index: end_index + 1, ...]
+                           start_index: Optional[int] = None,
+                           end_index: Optional[int] = None,
+                           ) -> Tuple[np.ndarray, np.ndarray]:
+        if (start_index is not None and end_index is not None) and (
+            len(self.mean.shape) != 1 and len(self.std.shape) != 1
+        ):
+            mean = self.mean[start_index : end_index + 1, ...]
+            std = self.std[start_index : end_index + 1, ...]
         else:
             mean = self.mean
             std = self.std
@@ -44,13 +48,12 @@ class BaseScaler():
         elif isinstance(df, np.ndarray):
             values = df
         else:
-            raise ValueError("df should be in DataFrame or np.ndarray")
+            raise ValueError('df should be in DataFrame or np.ndarray')
         return values, columns
 
-    def _set_values(self,
-                    df: DataFrame | np.ndarray,
-                    values: np.ndarray,
-                    columns: List[str]) -> DataFrame | np.ndarray:
+    def _set_values(
+        self, df: DataFrame | np.ndarray, values: np.ndarray, columns: List[str]
+    ) -> DataFrame | np.ndarray:
         df = deepcopy(df)
         if isinstance(df, DataFrame):
             df[columns] = values
@@ -58,14 +61,19 @@ class BaseScaler():
             df = values
         return df
 
-    def fit_transform(self, df: DataFrame | np.ndarray)-> DataFrame | np.ndarray:
+    def fit_transform(self, df: DataFrame | np.ndarray) -> DataFrame | np.ndarray:
         raise NotImplementedError
 
-    def transform(self,
-                  df: DataFrame | np.ndarray,
-                  start_index: int = None,
-                  end_index: int = None) -> DataFrame | np.ndarray:
-        assert self.mean is not None and self.std is not None, "mean and std should not be None"
+    def transform(
+            self,
+            df: DataFrame | np.ndarray,
+            start_index: Optional[int] = None,
+            end_index: Optional[int] = None,
+        ) -> DataFrame | np.ndarray:
+
+        assert (
+            self.mean is not None and self.std is not None
+        ), 'mean and std should not be None'
 
         values, columns = self._convert(df)
 
@@ -76,10 +84,15 @@ class BaseScaler():
 
         return df
 
-    def inverse_transform(self, df: DataFrame | np.ndarray,
-                          start_index: int = None,
-                          end_index: int = None) -> DataFrame | np.ndarray:
-        assert self.mean is not None and self.std is not None, "mean and std should not be None"
+    def inverse_transform(
+                self,
+                df: DataFrame | np.ndarray,
+                start_index: Optional[int] = None,
+                end_index: Optional[int] = None,
+            ) -> DataFrame | np.ndarray:
+        assert (
+            self.mean is not None and self.std is not None
+        ), 'mean and std should not be None'
 
         normed_values, columns = self._convert(df)
 
@@ -90,18 +103,19 @@ class BaseScaler():
 
         return df
 
+
 @SCALER.register_module(force=True)
 class StandardScaler(BaseScaler):
-    def __init__(self,
-                 mean: np.ndarray = None,
-                 std: np.ndarray = None,
-                 ):
+    def __init__(
+        self,
+        mean: np.ndarray = None,
+        std: np.ndarray = None,
+    ):
         super(StandardScaler, self).__init__(mean, std)
         self.mean = mean
         self.std = std
 
-    def fit_transform(self, df: DataFrame | np.ndarray)-> DataFrame | np.ndarray:
-
+    def fit_transform(self, df: DataFrame | np.ndarray) -> DataFrame | np.ndarray:
         values, columns = self._convert(df)
 
         mean = values.mean(axis=0, keepdims=True)
@@ -119,40 +133,42 @@ class StandardScaler(BaseScaler):
 
         return df
 
+
 @SCALER.register_module(force=True)
 class WindowedScaler(BaseScaler):
-    def __init__(self,
-                 mean: np.ndarray = None,
-                 std: np.ndarray = None,
-                 window_size: int = 64,
-                 ):
+    def __init__(
+        self,
+        mean: np.ndarray = None,
+        std: np.ndarray = None,
+        window_size: int = 64,
+    ):
         super(WindowedScaler, self).__init__(mean, std)
         self.mean = mean
         self.std = std
         self.window_size = window_size
 
-    def fit_transform(self, df: DataFrame | np.ndarray)-> DataFrame | np.ndarray:
-
+    def fit_transform(self, df: DataFrame | np.ndarray) -> DataFrame | np.ndarray:
         values, columns = self._convert(df)
 
-        nums, feature_nums = values.shape[0], values.shape[1]
+        nums, _ = values.shape[0], values.shape[1]
         block_nums = int(np.ceil(nums / self.window_size))
 
-        def cal_mean_std(index, window_size = self.window_size):
-            chunk = values[index * window_size: min((index + 1) * window_size, len(values))]
+        def cal_mean_std(index, window_size=self.window_size):
+            chunk = values[
+                index * window_size : min((index + 1) * window_size, len(values))
+            ]
             chunk_mean = chunk.mean(axis=0)
             chunk_std = chunk.std(axis=0)
             return chunk_mean, chunk_std
 
-        with ThreadPoolExecutor(max_workers=min(32, os.cpu_count() + 4)) as executor:
+        with ThreadPoolExecutor(max_workers=min(32, 8)) as executor:
             mean_std = list(executor.map(cal_mean_std, range(block_nums)))
 
-        mean = [item[0] for item in mean_std]
-        std = [item[1] for item in mean_std]
+        mean = np.array([item[0] for item in mean_std])
+        std = np.array([item[1] for item in mean_std])
 
-        # adjust mean and std
-        mean = np.array([mean[0]] + mean[:-1]) # add first window, remove the last window
-        std = np.array([std[0]] + std[:-1]) # add first window, remove the last window
+        mean = np.concatenate([np.array(mean[0]).reshape(1, -1), mean[:-1]], axis=0)
+        std = np.concatenate([np.array(std[0]).reshape(1, -1), std[:-1]], axis=0)
 
         # repeat mean and std
         mean = mean.repeat(repeats=self.window_size, axis=0)
@@ -169,40 +185,38 @@ class WindowedScaler(BaseScaler):
 
         return df
 
-__all__ = [
-    "StandardScaler",
-    "WindowedScaler"
-]
+
+__all__ = ['StandardScaler', 'WindowedScaler']
 
 if __name__ == '__main__':
-    df = pd.read_csv(assemble_project_path("datasets/processd_day_dj30/features/AAPL.csv"))
-    df = df[["open", "high", "low", "close"]]
+    df = pd.read_csv(
+        assemble_project_path('datasets/processd_day_dj30/features/AAPL.csv')
+    )
+    df = df[['open', 'high', 'low', 'close']]
     print(df)
 
-    scaler = StandardScaler()
-    df = scaler.fit_transform(df)
+    std_scaler = StandardScaler()
+    df = std_scaler.fit_transform(df)
     print(df)
-    print(scaler.mean.shape, scaler.std.shape)
+    print(std_scaler.mean.shape, std_scaler.std.shape)
 
-    df = scaler.inverse_transform(df)
+    df = std_scaler.inverse_transform(df, start_index=0, end_index=1)
     print(df)
 
-    joblib.dump(scaler, "tmp.joblib")
-    scaler = joblib.load("tmp.joblib")
-    os.remove("tmp.joblib")
+    joblib.dump(std_scaler, 'tmp.joblib')
+    scaler = joblib.load('tmp.joblib')
+    os.remove('tmp.joblib')
     print(scaler)
 
-    scaler = WindowedScaler()
-    df = scaler.fit_transform(df)
+    wd_scaler = WindowedScaler()
+    df = wd_scaler.fit_transform(df)
     print(df)
-    print(scaler.mean.shape, scaler.std.shape)
+    print(wd_scaler.mean.shape, wd_scaler.std.shape)
 
-    df = scaler.inverse_transform(df)
+    df = wd_scaler.inverse_transform(df)
     print(df)
 
-    joblib.dump(scaler, "tmp.joblib")
-    scaler = joblib.load("tmp.joblib")
-    os.remove("tmp.joblib")
-    print(scaler)
-
-
+    joblib.dump(wd_scaler, 'tmp.joblib')
+    wd_scaler = joblib.load('tmp.joblib')
+    os.remove('tmp.joblib')
+    print(wd_scaler)

@@ -31,6 +31,7 @@ class MultiAssetPriceTextCollateFn():
                 batch[key]["features"] = batch[key]["features"].permute(0, 2, 1, 3)
                 batch[key]["labels"] = batch[key]["labels"].permute(0, 2, 1, 3)
                 batch[key]["prices"] = batch[key]["prices"].permute(0, 2, 1, 3)
+                batch[key]["original_prices"] = batch[key]["original_prices"].permute(0, 2, 1, 3)
                 batch[key]["timestamps"] = batch[key]["timestamps"].permute(0, 2, 1)
                 batch[key]["prices_mean"] = batch[key]["prices_mean"].permute(0, 2, 1, 3)
                 batch[key]["prices_std"] = batch[key]["prices_std"].permute(0, 2, 1, 3)

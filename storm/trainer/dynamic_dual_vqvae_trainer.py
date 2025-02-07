@@ -708,10 +708,12 @@ class DynamicDualVQVAETrainer():
             rankicir = RankICIR(rankics)
 
             records.update(data={"RANKIC": rankic, "RANKICIR": rankicir},
-                           extra_info={"end_timestamp": end_timestamp, "pred_label": pred_label, "true_label": labels})
+                           extra_info={"end_timestamp": end_timestamp,
+                                       "pred_label": pred_label, "true_label": labels})
 
-        # gather data from multi gpu
-        records.gather()
+            # gather data from multi gpu
+            records.gather()
+
         gathered_item = records.gathered_item
         combiner = records.combiner
         extra_combiner = records.extra_combiner
@@ -866,8 +868,9 @@ class DynamicDualVQVAETrainer():
                                        "embed_ind_cs": embed_ind_cs,
                                        "embed_ind_ts": embed_ind_ts})
 
-        # gather data from multi gpu
-        records.gather()
+            # gather data from multi gpu
+            records.gather(train_gather_multi_gpu = True)
+
         extra_combiner = records.extra_combiner
 
         # Process extra records
@@ -911,6 +914,8 @@ class DynamicDualVQVAETrainer():
                 "nums": len(end_timestamps),
             }
 
+            print(meta)
+
             items = {}
             for end_timestamp, factor_cs, factor_ts in zip(end_timestamps, factors_cs, factors_ts):
                 items[end_timestamp] = {
@@ -933,9 +938,6 @@ class DynamicDualVQVAETrainer():
             if self.is_main_process:
                 save_joblib(info, os.path.join(self.exp_path, f"state.joblib"))
                 save_json(count, os.path.join(self.exp_path, f"count.json"))
-
-
-        return records
 
     def train(self):
 
@@ -1024,9 +1026,7 @@ class DynamicDualVQVAETrainer():
 
         log_stats = {"epoch": epoch}
 
-        state_stats = self.run_state(epoch)
-
-        log_stats.update({f"state_{k}": v for k, v in state_stats.items()})
+        self.run_state(epoch)
 
         if self.is_main_process:
             with open(os.path.join(self.exp_path, "state_log.txt"), "w",) as f:
