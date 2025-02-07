@@ -75,6 +75,7 @@ accelerate launch --main_process_port 29514 tools/pretrain_dynamic_dual_vqvae.py
 
 ## Trading
 Since our downstream task can also be a trading task implemented via RL, we first need to extract factor vectors as the state before training the RL agent for trading.
+DJ30 is used as an example here. You can replace it with other datasets.
 ```
 # extract state
 accelerate launch --main_process_port 29600 tools/pretrain_dynamic_dual_vqvae.py --no_train --no_test --state --no_tensorboard --no_wandb --config configs/exp/state/state_day_dj30_dynamic_dual_vqvae.py --checkpoint_path workdir/pretrain_day_dj30_dynamic_dual_vqvae/checkpoint/best.pth
