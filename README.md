@@ -77,9 +77,9 @@ accelerate launch --main_process_port 29514 tools/pretrain_dynamic_dual_vqvae.py
 Since our downstream task can also be a trading task implemented via RL, we first need to extract factor vectors as the state before training the RL agent for trading.
 ```
 # extract state
-accelerate launch --main_process_port 29600 tools/pretrain_dynamic_dual_vqvae.py --no_train --no_test --state --no_tensorboard --no_wandb --config configs/exp/state/state_day_dj30_dynamic_dual_vqvae.py --checkpoint_path workdir/pretrain_day_dj30_dynamic_dual_vqvae/checkpoint/checkpoint_000320.pth
-accelerate launch --main_process_port 29600 tools/pretrain_dynamic_dual_vqvae.py --no_train --no_test --state --no_tensorboard --no_wandb --config configs/exp/state/state_day_dj30_dynamic_single_vqvae_cross_sectional.py --checkpoint_path workdir/pretrain_day_dj30_dynamic_single_vqvae_cross_sectional/checkpoint/checkpoint_000740.pth
-accelerate launch --main_process_port 29600 tools/pretrain_dynamic_dual_vqvae.py --no_train --no_test --state --no_tensorboard --no_wandb --config configs/exp/state/state_day_dj30_dynamic_single_vqvae_time_series.py --checkpoint_path workdir/pretrain_day_dj30_dynamic_single_vqvae_time_series/checkpoint/checkpoint_000780.pth
+accelerate launch --main_process_port 29600 tools/pretrain_dynamic_dual_vqvae.py --no_train --no_test --state --no_tensorboard --no_wandb --config configs/exp/state/state_day_dj30_dynamic_dual_vqvae.py --checkpoint_path workdir/pretrain_day_dj30_dynamic_dual_vqvae/checkpoint/best.pth
+accelerate launch --main_process_port 29600 tools/pretrain_dynamic_dual_vqvae.py --no_train --no_test --state --no_tensorboard --no_wandb --config configs/exp/state/state_day_dj30_dynamic_single_vqvae_cross_sectional.py --checkpoint_path workdir/pretrain_day_dj30_dynamic_single_vqvae_cross_sectional/checkpoint/best.pth
+accelerate launch --main_process_port 29600 tools/pretrain_dynamic_dual_vqvae.py --no_train --no_test --state --no_tensorboard --no_wandb --config configs/exp/state/state_day_dj30_dynamic_single_vqvae_time_series.py --checkpoint_path workdir/pretrain_day_dj30_dynamic_single_vqvae_time_series/checkpoint/best.pth
 
 # trading
 # CUDA_VISIBLE_DEVICES=0 is optional, you can remove it if you don't want to specify the GPU.
